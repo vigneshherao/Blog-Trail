@@ -9,7 +9,26 @@ app.use(express.static("public"));
 
 app.use(express.urlencoded({extended:true}));
 
-
+let posts = [
+    {
+        id:1,
+        username : "vignesh",
+        content : "hey am vignesh",
+        profile : ""
+    },
+    {
+        id:2,
+        username : "vignesh",
+        content : "hey am vignesh",
+        profile : ""
+    }
+    ,    {
+        id:3,
+        username : "vignesh",
+        content : "hey am vignesh",
+        profile : ""
+    }
+]
 
 
 app.listen(port,()=>{
@@ -18,5 +37,18 @@ app.listen(port,()=>{
 
 
 app.get("/",(req,res)=>{
-    res.render("home.ejs");
+    res.render("home.ejs",{posts});
+})
+
+
+app.get("/posts",(req,res)=>{
+    res.render("form.ejs")
+})
+
+
+app.post("/posts",(req,res)=>{
+    let {username,content,profile} = req.body;
+    posts.push({username,content,profile});
+    res.redirect("/");
+
 })
