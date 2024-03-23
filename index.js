@@ -45,175 +45,3366 @@ app.get("/posts",(req,res)=>{
 })
 
 app.get("/restaurent",(req,res)=>{
-    res.send(// 20240323223900
-    // https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.3164945&lng=78.03219179999999&restaurantId=18080
-    
+    res.send(
     {
       "statusCode": 0,
       "data": {
         "statusMessage": "done successfully",
+        "pageOffset": {
+          "nextOffset": "COVCELQ4KIDI4vj98pm3YzCnEzgE",
+          "widgetOffset": {
+            "NewListingView_category_bar_chicletranking_TwoRows": "",
+            "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
+            "Restaurant_Group_WebView_PB_Theme": "",
+            "Restaurant_Group_WebView_SEO_PB_Theme": "",
+            "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo": "10",
+            "inlineFacetFilter": "",
+            "restaurantCountWidget": ""
+          }
+        },
         "cards": [
           {
             "card": {
               "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                  "id": "18080",
-                  "name": "Bhagyashree Executive",
-                  "city": "Pune",
-                  "slugs": {
-                    "restaurant": "bhagyashree-executive-amanora-township-magarpatta",
-                    "city": "pune"
-                  },
-                  "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
-                  "cloudinaryImageId": "ltodyau9q5ps8wovr89n",
-                  "locality": "Near Amanora Township",
-                  "areaName": "Magarpatta",
-                  "costForTwo": "50000",
-                  "costForTwoMessage": "₹500 for two",
-                  "cuisines": [
-                    "Chinese",
-                    "Indian"
-                  ],
-                  "feeDetails": {
-                    "restaurantId": "18080",
-                    "fees": [
-                      {
-                        
-                      }
-                    ]
-                  },
-                  "parentId": "44047",
-                  "avgRatingString": "--",
-                  "totalRatingsString": "Too Few Ratings",
-                  "sla": {
-                    "restaurantId": "18080",
-                    "serviceability": "NON_SERVICEABLE",
-                    "nonServiceableReason": "NON_SERVICEABLE_REASON_NON_BATCHABLE_ACTIVE_ORDER",
-                    "rainMode": "RAIN_MODE_NONE",
-                    "iconType": "ICON_TYPE_EMPTY"
-                  },
-                  "availability": {
-                    "visibility": true,
-                    "restaurantClosedMeta": {
-                      
+                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                "header": {
+                  "title": "What's on your mind?",
+                  "headerStyling": {
+                    "padding": {
+                      "left": 16,
+                      "top": 16,
+                      "bottom": 4
                     }
-                  },
-                  "aggregatedDiscountInfo": {
-                    "shortDescriptionList": [
-                      {
-                        "discountType": "Flat",
-                        "operationType": "RESTAURANT"
-                      },
-                      {
-                        "discountType": "Percentage",
-                        "operationType": "RESTAURANT"
-                      }
-                    ],
-                    "descriptionList": [
-                      {
-                        "meta": "NO CODE REQUIRED | ABOVE ₹399",
-                        "discountType": "Flat",
-                        "operationType": "RESTAURANT"
-                      },
-                      {
-                        "meta": "20% off upto ₹125 | Use AMEXMATCHDAY Above ₹549",
-                        "discountType": "Percentage",
-                        "operationType": "RESTAURANT"
-                      }
-                    ],
-                    "visible": true
-                  },
-                  "badges": {
-                    
-                  },
-                  "slugString": "bhagyashree-executive-amanora-township-magarpatta",
-                  "labels": [
-                    {
-                      "title": "Timings",
-                      "message": "null"
-                    },
-                    {
-                      "title": "Address",
-                      "message": "169/1, Near Amanora Township,Tupe Nagar,Hadapsar,Pune"
-                    },
-                    {
-                      "title": "Cuisines",
-                      "message": "Chinese,Indian"
-                    }
-                  ],
-                  "aggregatedDiscountInfoV2": {
-                    "shortDescriptionList": [
-                      {
-                        "discountType": "Flat",
-                        "operationType": "RESTAURANT"
-                      },
-                      {
-                        "discountType": "Percentage",
-                        "operationType": "RESTAURANT"
-                      }
-                    ],
-                    "descriptionList": [
-                      {
-                        "meta": "NO CODE REQUIRED | ABOVE ₹399",
-                        "discountType": "Flat",
-                        "operationType": "RESTAURANT"
-                      },
-                      {
-                        "meta": "20% off upto ₹125 | Use AMEXMATCHDAY Above ₹549",
-                        "discountType": "Percentage",
-                        "operationType": "RESTAURANT"
-                      }
-                    ],
-                    "couponDetailsCta": "View coupon details"
-                  },
-                  "type": "F",
-                  "headerBanner": {
-                    "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/18080"
-                  },
-                  "availabilityServiceabilityMessage": "Does not deliver to your location",
-                  "orderabilityCommunication": {
-                    "title": {
-                      "text": "Wish you were"
-                    },
-                    "subTitle": {
-                      "text": "CLOSER!"
-                    },
-                    "message": {
-                      "text": "This location is outside the outlet's delivery area",
-                      "textColour": "negative"
-                    },
-                    "customIcon": {
-                      "bgGradientColorStart": "#F64C41",
-                      "bgGradientColorEnd": "#E53554"
-                    }
-                  },
-                  "cartOrderabilityNudgeBanner": {
-                    "parameters": {
-                      
-                    },
-                    "presentation": {
-                      
-                    }
-                  },
-                  "latLong": "18.512386,73.93765800000006",
-                  "externalRatings": {
-                    "aggregatedRating": {
-                      "rating": "--"
-                    }
-                  },
-                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                  "backgroundImageOverlayInfo": {
-                    
                   }
                 },
-                "analytics": {
-                  
+                "layout": {
+                  "rows": 1,
+                  "columns": 10,
+                  "horizontalScrollEnabled": true,
+                  "itemSpacing": 24,
+                  "widgetPadding": {
+                    
+                  },
+                  "containerStyle": {
+                    "containerPadding": {
+                      "left": 8,
+                      "top": 8,
+                      "right": 12,
+                      "bottom": 4
+                    }
+                  },
+                  "scrollBar": {
+                    
+                  },
+                  "widgetTheme": {
+                    "defaultMode": {
+                      "backgroundColour": "#FFFFFF",
+                      "theme": "THEME_TYPE_LIGHT"
+                    },
+                    "darkMode": {
+                      "theme": "THEME_TYPE_DARK"
+                    }
+                  }
+                },
+                "imageGridCards": {
+                  "info": [
+                    {
+                      "id": "750597",
+                      "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
+                        "text": "Ice Cream",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for icecream",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750592",
+                      "imageId": "v1675667625/PC_Creative%20refresh/Biryani_2.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83649?collection_id=83649&search_context=biryani&tags=layout_CCS_Biryani&type=rcv2",
+                        "text": "Biryani",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for biryani",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83649&tags=layout_CCS_Biryani&search_context=biryani",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "762797",
+                      "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
+                        "text": "Burgers",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for burger",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750223",
+                      "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Rolls.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83670?collection_id=83670&tags=layout_CCS_Rolls&type=rcv2",
+                        "text": "Rolls",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for roll",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83670&tags=layout_CCS_Rolls",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750582",
+                      "imageId": "v1675667625/PC_Creative%20refresh/North_Indian_4.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83645?collection_id=83645&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
+                        "text": "North Indian",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for north indian",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83645&tags=layout_CCS_NorthIndian&search_context=northindian",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750588",
+                      "imageId": "v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83647?collection_id=83647&tags=layout_CCS_Chinese&type=rcv2",
+                        "text": "Chinese",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurant curated for chinese",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83647&tags=layout_CCS_Chinese",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750580",
+                      "imageId": "v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83644?collection_id=83644&search_context=pizza&tags=layout_CCS_Pizza&type=rcv2",
+                        "text": "pizzas",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for pizza",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83644&tags=layout_CCS_Pizza&search_context=pizza",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750207",
+                      "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pasta.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/80480?collection_id=80480&tags=layout_BAU_Contextual%2Cpasta%2Cads_pc_pasta&type=rcv2",
+                        "text": "Pasta",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurant curated for pasta",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "80480",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750249",
+                      "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Shawarma.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/80403?collection_id=80403&tags=layout_Shawarma_Contextual&type=rcv2",
+                        "text": "Shawarma",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurant curated for shawarma",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=80403&tags=layout_Shawarma_Contextual",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750584",
+                      "imageId": "v1675667626/PC_Creative%20refresh/South_Indian_4.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83646?collection_id=83646&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
+                        "text": "South Indian",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for south indian",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83646&tags=layout_CCS_SouthIndian&search_context=southindian",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "749874",
+                      "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
+                        "text": "Cakes",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurant curated for cakes",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "749769",
+                      "imageId": "v1674029852/PC_Creative%20refresh/3D_bau/banners_new/Momos.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/80462?collection_id=80462&tags=layout_CCS_Momos&type=rcv2",
+                        "text": "Momos",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurant curated for momos",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=80462&tags=layout_CCS_Momos",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750636",
+                      "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Kebabs.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/80452?collection_id=80452&tags=layout_BAU_Contextual%2Ckebab%2Cads_pc_kebab&type=rcv2",
+                        "text": "Kebabs",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurant curated for kebabs",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "80452",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "749774",
+                      "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                        "text": "Noodles",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurant curated for noodles",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "80464",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750205",
+                      "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Parotta.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/80478?collection_id=80478&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
+                        "text": "Parotta",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurant curated for parotta",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "80478",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750203",
+                      "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
+                        "text": "Paratha",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for paratha",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "80476",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750572",
+                      "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Pure_Veg.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/80439?collection_id=80439&tags=layout_CCS_PureVeg&type=rcv2",
+                        "text": "Pure Veg",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for veg",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=80439&tags=layout_CCS_PureVeg",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "749761",
+                      "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Khichdi.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/80456?collection_id=80456&tags=layout_BAU_Contextual%2Ckhichdi&type=rcv2",
+                        "text": "Khichdi",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for khicdhi",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "80456",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750235",
+                      "imageId": "v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Sandwich.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83667?collection_id=83667&tags=layout_CCS_Sandwiches&type=rcv2",
+                        "text": "Sandwich",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurants curated for sandwich",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83667&tags=layout_CCS_Sandwiches",
+                      "frequencyCapping": {
+                        
+                      }
+                    },
+                    {
+                      "id": "750239",
+                      "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Shakes.png",
+                      "action": {
+                        "link": "https://www.swiggy.com/collections/83674?collection_id=83674&tags=layout_CCS_Shakes&type=rcv2",
+                        "text": "Shake",
+                        "type": "WEBLINK"
+                      },
+                      "entityType": "BANNER",
+                      "accessibility": {
+                        "altText": "restaurant curated for shakes",
+                        "altTextCta": "open"
+                      },
+                      "entityId": "swiggy://collectionV2?collection_id=83674&tags=layout_CCS_Shakes",
+                      "frequencyCapping": {
+                        
+                      }
+                    }
+                  ],
+                  "style": {
+                    "width": {
+                      "type": "TYPE_RELATIVE",
+                      "value": 0.2941,
+                      "reference": "RELATIVE_DIMENSION_REFERENCE_CONTAINER_WIDTH"
+                    },
+                    "height": {
+                      "type": "TYPE_RELATIVE",
+                      "value": 1.2444,
+                      "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
+                    }
+                  }
+                },
+                "id": "whats_on_your_mind",
+                "gridElements": {
+                  "infoWithStyle": {
+                    "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.ImageInfoLayoutCard",
+                    "info": [
+                      {
+                        "id": "750597",
+                        "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
+                          "text": "Ice Cream",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for icecream",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750592",
+                        "imageId": "v1675667625/PC_Creative%20refresh/Biryani_2.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83649?collection_id=83649&search_context=biryani&tags=layout_CCS_Biryani&type=rcv2",
+                          "text": "Biryani",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for biryani",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83649&tags=layout_CCS_Biryani&search_context=biryani",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "762797",
+                        "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
+                          "text": "Burgers",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for burger",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750223",
+                        "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Rolls.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83670?collection_id=83670&tags=layout_CCS_Rolls&type=rcv2",
+                          "text": "Rolls",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for roll",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83670&tags=layout_CCS_Rolls",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750582",
+                        "imageId": "v1675667625/PC_Creative%20refresh/North_Indian_4.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83645?collection_id=83645&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
+                          "text": "North Indian",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for north indian",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83645&tags=layout_CCS_NorthIndian&search_context=northindian",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750588",
+                        "imageId": "v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83647?collection_id=83647&tags=layout_CCS_Chinese&type=rcv2",
+                          "text": "Chinese",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurant curated for chinese",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83647&tags=layout_CCS_Chinese",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750580",
+                        "imageId": "v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83644?collection_id=83644&search_context=pizza&tags=layout_CCS_Pizza&type=rcv2",
+                          "text": "pizzas",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for pizza",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83644&tags=layout_CCS_Pizza&search_context=pizza",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750207",
+                        "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pasta.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/80480?collection_id=80480&tags=layout_BAU_Contextual%2Cpasta%2Cads_pc_pasta&type=rcv2",
+                          "text": "Pasta",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurant curated for pasta",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "80480",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750249",
+                        "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Shawarma.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/80403?collection_id=80403&tags=layout_Shawarma_Contextual&type=rcv2",
+                          "text": "Shawarma",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurant curated for shawarma",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=80403&tags=layout_Shawarma_Contextual",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750584",
+                        "imageId": "v1675667626/PC_Creative%20refresh/South_Indian_4.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83646?collection_id=83646&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
+                          "text": "South Indian",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for south indian",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83646&tags=layout_CCS_SouthIndian&search_context=southindian",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "749874",
+                        "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
+                          "text": "Cakes",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurant curated for cakes",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "749769",
+                        "imageId": "v1674029852/PC_Creative%20refresh/3D_bau/banners_new/Momos.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/80462?collection_id=80462&tags=layout_CCS_Momos&type=rcv2",
+                          "text": "Momos",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurant curated for momos",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=80462&tags=layout_CCS_Momos",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750636",
+                        "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Kebabs.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/80452?collection_id=80452&tags=layout_BAU_Contextual%2Ckebab%2Cads_pc_kebab&type=rcv2",
+                          "text": "Kebabs",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurant curated for kebabs",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "80452",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "749774",
+                        "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                          "text": "Noodles",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurant curated for noodles",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "80464",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750205",
+                        "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Parotta.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/80478?collection_id=80478&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
+                          "text": "Parotta",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurant curated for parotta",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "80478",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750203",
+                        "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
+                          "text": "Paratha",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for paratha",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "80476",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750572",
+                        "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Pure_Veg.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/80439?collection_id=80439&tags=layout_CCS_PureVeg&type=rcv2",
+                          "text": "Pure Veg",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for veg",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=80439&tags=layout_CCS_PureVeg",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "749761",
+                        "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Khichdi.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/80456?collection_id=80456&tags=layout_BAU_Contextual%2Ckhichdi&type=rcv2",
+                          "text": "Khichdi",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for khicdhi",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "80456",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750235",
+                        "imageId": "v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Sandwich.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83667?collection_id=83667&tags=layout_CCS_Sandwiches&type=rcv2",
+                          "text": "Sandwich",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurants curated for sandwich",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83667&tags=layout_CCS_Sandwiches",
+                        "frequencyCapping": {
+                          
+                        }
+                      },
+                      {
+                        "id": "750239",
+                        "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Shakes.png",
+                        "action": {
+                          "link": "https://www.swiggy.com/collections/83674?collection_id=83674&tags=layout_CCS_Shakes&type=rcv2",
+                          "text": "Shake",
+                          "type": "WEBLINK"
+                        },
+                        "entityType": "BANNER",
+                        "accessibility": {
+                          "altText": "restaurant curated for shakes",
+                          "altTextCta": "open"
+                        },
+                        "entityId": "swiggy://collectionV2?collection_id=83674&tags=layout_CCS_Shakes",
+                        "frequencyCapping": {
+                          
+                        }
+                      }
+                    ],
+                    "style": {
+                      "width": {
+                        "type": "TYPE_RELATIVE",
+                        "value": 0.2941,
+                        "reference": "RELATIVE_DIMENSION_REFERENCE_CONTAINER_WIDTH"
+                      },
+                      "height": {
+                        "type": "TYPE_RELATIVE",
+                        "value": 1.2444,
+                        "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
+                      }
+                    }
+                  }
                 }
-              },
-              "relevance": {
-                "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
-                "sectionId": "POP_UP_CROUTON_MENU"
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                "header": {
+                  "title": "Top restaurant chains in Mangaluru",
+                  "action": {
+                    
+                  },
+                  "headerStyling": {
+                    "padding": {
+                      "left": 16,
+                      "top": 28,
+                      "bottom": 18
+                    }
+                  }
+                },
+                "layout": {
+                  "rows": 1,
+                  "columns": 20,
+                  "horizontalScrollEnabled": true,
+                  "itemSpacing": 32,
+                  "widgetPadding": {
+                    
+                  },
+                  "containerStyle": {
+                    "containerPadding": {
+                      "left": 16,
+                      "right": 12,
+                      "bottom": 12
+                    }
+                  },
+                  "scrollBar": {
+                    "scrollThumbColor": "#E46D47",
+                    "scrollTrackColor": "#02060C",
+                    "width": 54,
+                    "height": 4,
+                    "scrollStyling": {
+                      "padding": {
+                        "top": 6,
+                        "bottom": 24
+                      }
+                    }
+                  },
+                  "widgetTheme": {
+                    "defaultMode": {
+                      "backgroundColour": "#1B3028",
+                      "theme": "THEME_TYPE_DARK"
+                    },
+                    "darkMode": {
+                      "backgroundColour": "#1B3028",
+                      "theme": "THEME_TYPE_DARK"
+                    }
+                  }
+                },
+                "id": "top_brands_for_you",
+                "gridElements": {
+                  "infoWithStyle": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                    "restaurants": [
+                      {
+                        "info": {
+                          "id": "99437",
+                          "name": "UBQ by Barbeque Nation",
+                          "cloudinaryImageId": "s9hciu1do1noedahaztr",
+                          "locality": "Father Mullers road",
+                          "areaName": "Kankanady",
+                          "costForTwo": "₹300 for two",
+                          "cuisines": [
+                            "North Indian",
+                            "Barbecue",
+                            "Biryani",
+                            "Kebabs",
+                            "Mughlai",
+                            "Desserts"
+                          ],
+                          "avgRating": 4.2,
+                          "parentId": "10804",
+                          "avgRatingString": "4.2",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 37,
+                            "lastMileTravel": 7.2,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "35-40 mins",
+                            "lastMileTravelString": "7.2 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:30:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "50% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-father-mullers-road-kankanady-mangaluru-99437",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "302695",
+                          "name": "Barbeque Nation",
+                          "cloudinaryImageId": "t5c6quo7mpag8ucmfjsm",
+                          "locality": "Father Mullers road",
+                          "areaName": "Kankanady",
+                          "costForTwo": "₹600 for two",
+                          "cuisines": [
+                            "North Indian",
+                            "Barbecue",
+                            "Biryani",
+                            "Kebabs",
+                            "Mughlai",
+                            "Desserts"
+                          ],
+                          "avgRating": 4.3,
+                          "parentId": "2438",
+                          "avgRatingString": "4.3",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 33,
+                            "lastMileTravel": 7.2,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "7.2 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:30:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "50% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/barbeque-nation-father-mullers-road-kankanady-mangaluru-302695",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "746188",
+                          "name": "The Pasta Co.",
+                          "cloudinaryImageId": "0aece17895a79c80558e3c2946f741f4",
+                          "locality": "Kadri Village",
+                          "areaName": "Lalbagh",
+                          "costForTwo": "₹400 for two",
+                          "cuisines": [
+                            "Pastas",
+                            "American",
+                            "Continental",
+                            "Italian"
+                          ],
+                          "avgRating": 4.5,
+                          "parentId": "443282",
+                          "avgRatingString": "4.5",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 35,
+                            "lastMileTravel": 6.8,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "6.8 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 01:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                                "description": "OnlyOnSwiggy"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "OnlyOnSwiggy",
+                                      "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "60% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/the-pasta-co-kadri-village-lalbagh-mangaluru-746188",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "98668",
+                          "name": "The Leela's kitchen",
+                          "cloudinaryImageId": "p7crtx9ydfwkwqrbkbj8",
+                          "locality": "Derebail",
+                          "areaName": "Lalbagh",
+                          "costForTwo": "₹250 for two",
+                          "cuisines": [
+                            "Chinese",
+                            "North Indian",
+                            "South Indian",
+                            "Ice Cream",
+                            "Biryani"
+                          ],
+                          "avgRating": 4.2,
+                          "parentId": "15779",
+                          "avgRatingString": "4.2",
+                          "totalRatingsString": "10K+",
+                          "sla": {
+                            "deliveryTime": 29,
+                            "lastMileTravel": 3,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "25-30 mins",
+                            "lastMileTravelString": "3.0 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:45:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "₹125 OFF",
+                            "subHeader": "ABOVE ₹199",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/the-leelas-kitchen-derebail-lalbagh-mangaluru-98668",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "364949",
+                          "name": "The Good Bowl",
+                          "cloudinaryImageId": "0b3356a88b6fc5966c452c4c9b1b5e4a",
+                          "locality": "Balmatta road",
+                          "areaName": "Balmatta",
+                          "costForTwo": "₹400 for two",
+                          "cuisines": [
+                            "Biryani",
+                            "North Indian",
+                            "Pastas",
+                            "Punjabi",
+                            "Desserts",
+                            "Beverages"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "7918",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 36,
+                            "lastMileTravel": 7.9,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "35-40 mins",
+                            "lastMileTravelString": "7.9 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:59:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "60% OFF",
+                            "subHeader": "UPTO ₹110"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/the-good-bowl-road-balmatta-mangaluru-364949",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "82858",
+                          "name": "Bombay Lucky Restaurant",
+                          "cloudinaryImageId": "j5p3aiqci22sqrpgg9sx",
+                          "locality": "Mohammed Ali Road",
+                          "areaName": "Bunder",
+                          "costForTwo": "₹300 for two",
+                          "cuisines": [
+                            "Chinese",
+                            "North Indian",
+                            "South Indian",
+                            "Ice Cream",
+                            "Biryani"
+                          ],
+                          "avgRating": 4.3,
+                          "parentId": "12804",
+                          "avgRatingString": "4.3",
+                          "totalRatingsString": "5K+",
+                          "sla": {
+                            "deliveryTime": 31,
+                            "lastMileTravel": 8.4,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "8.4 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 00:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "aggregatedDiscountInfoV2": {
+                            
+                          },
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/bombay-lucky-restaurant-mohammed-ali-road-bunder-mangaluru-82858",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "99531",
+                          "name": "The Belgian Waffle Co.",
+                          "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
+                          "locality": "Light House Hill Road",
+                          "areaName": "KS Rao Nagar",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Waffle",
+                            "Desserts",
+                            "Ice Cream",
+                            "Beverages"
+                          ],
+                          "avgRating": 4.7,
+                          "veg": true,
+                          "parentId": "2233",
+                          "avgRatingString": "4.7",
+                          "totalRatingsString": "5K+",
+                          "sla": {
+                            "deliveryTime": 33,
+                            "lastMileTravel": 6.9,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "6.9 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 00:30:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                "description": "pureveg"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "pureveg",
+                                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "20% OFF",
+                            "subHeader": "UPTO ₹50"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/the-belgian-waffle-co-light-house-hill-road-ks-rao-nagar-mangaluru-99531",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "364948",
+                          "name": "LunchBox - Meals and Thalis",
+                          "cloudinaryImageId": "rtlfg1csfrg2691e56wt",
+                          "locality": "Balmatta road",
+                          "areaName": "Hampankatta",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Biryani",
+                            "North Indian",
+                            "Punjabi",
+                            "Healthy Food",
+                            "Desserts",
+                            "Beverages"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "4925",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "5K+",
+                          "sla": {
+                            "deliveryTime": 35,
+                            "lastMileTravel": 7.9,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "35-40 mins",
+                            "lastMileTravelString": "7.9 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:59:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "ITEMS",
+                            "subHeader": "AT ₹159"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/lunchbox-meals-and-thalis-balmatta-road-hampankatta-mangaluru-364948",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "364943",
+                          "name": "Faasos - Wraps, Rolls & Shawarma",
+                          "cloudinaryImageId": "af33b81798b11deba338e94b7585d348",
+                          "locality": "Balmatta road",
+                          "areaName": "Hampankatta",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Kebabs",
+                            "Fast Food",
+                            "Snacks",
+                            "American",
+                            "Healthy Food",
+                            "Desserts",
+                            "Beverages"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "21809",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 36,
+                            "lastMileTravel": 7.9,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "35-40 mins",
+                            "lastMileTravelString": "7.9 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:59:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "₹125 OFF",
+                            "subHeader": "ABOVE ₹199",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/faasos-wraps-rolls-and-shawarma-balmatta-road-hampankatta-mangaluru-364943",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "443322",
+                          "name": "Polar Bear",
+                          "cloudinaryImageId": "57262fe3839f0bff174f3d7e7cc8a2b4",
+                          "locality": "Mannagudda",
+                          "areaName": "Kodailbail",
+                          "costForTwo": "₹350 for two",
+                          "cuisines": [
+                            "Ice Cream",
+                            "Desserts"
+                          ],
+                          "avgRating": 4.6,
+                          "veg": true,
+                          "parentId": "726",
+                          "avgRatingString": "4.6",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 25,
+                            "lastMileTravel": 6.1,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "25-30 mins",
+                            "lastMileTravelString": "6.1 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:45:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "aggregatedDiscountInfoV2": {
+                            
+                          },
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/polar-bear-mannagudda-kodailbail-mangaluru-443322",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "364947",
+                          "name": "Sweet Truth - Cake and Desserts",
+                          "cloudinaryImageId": "81cf6bfe2760a45a0caf2e28716ca4d7",
+                          "locality": "Balmatta road",
+                          "areaName": "Balmatta",
+                          "costForTwo": "₹450 for two",
+                          "cuisines": [
+                            "Snacks",
+                            "Bakery",
+                            "Desserts",
+                            "Beverages"
+                          ],
+                          "avgRating": 4.3,
+                          "parentId": "4444",
+                          "avgRatingString": "4.3",
+                          "totalRatingsString": "500+",
+                          "sla": {
+                            "deliveryTime": 29,
+                            "lastMileTravel": 7.9,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "25-30 mins",
+                            "lastMileTravelString": "7.9 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:59:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "60% OFF",
+                            "subHeader": "UPTO ₹110"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/sweet-truth-cake-and-desserts-road-balmatta-mangaluru-364947",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "210245",
+                          "name": "Pizza Hut",
+                          "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+                          "locality": "Shiv Baug",
+                          "areaName": "Kadri",
+                          "costForTwo": "₹400 for two",
+                          "cuisines": [
+                            "Pizzas"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "721",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 31,
+                            "lastMileTravel": 5,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "5.0 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 02:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                                "description": "Delivery!"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "Delivery!",
+                                      "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "ITEMS",
+                            "subHeader": "AT ₹179"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/pizza-hut-shiv-baug-kadri-mangaluru-210245",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "74568",
+                          "name": "KFC",
+                          "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+                          "locality": "Kadri Main Road",
+                          "areaName": "Kadri",
+                          "costForTwo": "₹400 for two",
+                          "cuisines": [
+                            "Burgers",
+                            "Biryani",
+                            "American",
+                            "Snacks",
+                            "Fast Food"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "547",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "10K+",
+                          "sla": {
+                            "deliveryTime": 29,
+                            "lastMileTravel": 5,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "25-30 mins",
+                            "lastMileTravelString": "5.0 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 00:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "Rxawards/_CATEGORY-Burger.png",
+                                "description": "Delivery!"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "Delivery!",
+                                      "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "30% OFF",
+                            "subHeader": "UPTO ₹75"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/kfc-main-road-kadri-mangaluru-74568",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "78656",
+                          "name": "McDonald's",
+                          "cloudinaryImageId": "f62564e14944753903849c4ef673af4d",
+                          "locality": "City Center Mall",
+                          "areaName": "Hampankatta",
+                          "costForTwo": "₹400 for two",
+                          "cuisines": [
+                            "Burgers",
+                            "Beverages",
+                            "Cafe",
+                            "Desserts"
+                          ],
+                          "avgRating": 4.5,
+                          "parentId": "630",
+                          "avgRatingString": "4.5",
+                          "totalRatingsString": "10K+",
+                          "sla": {
+                            "deliveryTime": 30,
+                            "lastMileTravel": 7.1,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "7.1 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:45:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "Rxawards/_CATEGORY-Burger.png",
+                                "description": "Delivery!"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "Delivery!",
+                                      "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "FREE ITEM"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/mcdonalds-city-center-mall-hampankatta-mangaluru-78656",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "711016",
+                          "name": "Subway",
+                          "cloudinaryImageId": "63178e3e64d503a479f2a2048a474552",
+                          "locality": "Lalbagh",
+                          "areaName": "Chilimbi MNG",
+                          "costForTwo": "₹400 for two",
+                          "cuisines": [
+                            "Healthy Food",
+                            "Salads",
+                            "Snacks",
+                            "Desserts",
+                            "Beverages"
+                          ],
+                          "avgRating": 4.2,
+                          "parentId": "2",
+                          "avgRatingString": "4.2",
+                          "totalRatingsString": "500+",
+                          "sla": {
+                            "deliveryTime": 26,
+                            "lastMileTravel": 4.6,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "25-30 mins",
+                            "lastMileTravelString": "4.6 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 02:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "40% OFF",
+                            "subHeader": "UPTO ₹80"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/subway-lalbagh-chilimbi-mng-mangaluru-711016",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "764841",
+                          "name": "Netmeal",
+                          "cloudinaryImageId": "b8d2d79f6d4243d7d2de29a2da7129fa",
+                          "locality": "Maroli",
+                          "areaName": "Lalbagh",
+                          "costForTwo": "₹350 for two",
+                          "cuisines": [
+                            "Chinese"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "452208",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "500+",
+                          "sla": {
+                            "deliveryTime": 33,
+                            "lastMileTravel": 7.5,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "7.5 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:59:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "50% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/netmeal-maroli-lalbagh-mangaluru-764841",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "651142",
+                          "name": "Istah Shawarmas",
+                          "cloudinaryImageId": "b7721df64a214adb6ca5930c3e4bb7e1",
+                          "locality": "Kadri Road",
+                          "areaName": "Lalbagh",
+                          "costForTwo": "₹300 for two",
+                          "cuisines": [
+                            "Mediterranean",
+                            "Snacks",
+                            "Biryani",
+                            "Grill",
+                            "Kebabs",
+                            "Arabian",
+                            "Lebanese",
+                            "Beverages",
+                            "Desserts",
+                            "Italian",
+                            "Turkish"
+                          ],
+                          "avgRating": 4.3,
+                          "parentId": "468195",
+                          "avgRatingString": "4.3",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 35,
+                            "lastMileTravel": 6.8,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "6.8 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 01:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                                "description": "OnlyOnSwiggy"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "OnlyOnSwiggy",
+                                      "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "60% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/istah-shawarmas-kadri-road-lalbagh-mangaluru-651142",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "80757",
+                          "name": "Chicken Fantasy Hot & Spicy",
+                          "cloudinaryImageId": "ggdgxq8ewmlxn0nnbxmi",
+                          "locality": "Kapikad Road",
+                          "areaName": "Lalbagh",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Chinese",
+                            "North Indian",
+                            "Biryani"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "12805",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "5K+",
+                          "sla": {
+                            "deliveryTime": 24,
+                            "lastMileTravel": 5,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "20-25 mins",
+                            "lastMileTravelString": "5.0 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:30:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                                "description": "OnlyOnSwiggy"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "OnlyOnSwiggy",
+                                      "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "₹125 OFF",
+                            "subHeader": "ABOVE ₹249",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/chicken-fantasy-hot-and-spicy-kapikad-road-lalbagh-mangaluru-80757",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "623971",
+                          "name": "Keventers - Milkshakes & Desserts",
+                          "cloudinaryImageId": "1c8517dc925655dfff4d3617bd2191a5",
+                          "locality": "Bunts Hostel Road",
+                          "areaName": "Balmatta",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Beverages",
+                            "Ice Cream",
+                            "Desserts",
+                            "Healthy Food"
+                          ],
+                          "avgRating": 4.4,
+                          "veg": true,
+                          "parentId": "268997",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "100+",
+                          "sla": {
+                            "deliveryTime": 28,
+                            "lastMileTravel": 7.7,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "25-30 mins",
+                            "lastMileTravelString": "7.7 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 01:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "50% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/keventers-milkshakes-and-desserts-bunts-hostel-road-balmatta-mangaluru-623971",
+                          "type": "WEBLINK"
+                        }
+                      },
+                      {
+                        "info": {
+                          "id": "87878",
+                          "name": "Hunger Lust",
+                          "cloudinaryImageId": "nacrvuzetxexfz7nrero",
+                          "locality": "Mangaladevi Road",
+                          "areaName": "Marnamikatte",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Pastas",
+                            "Chinese",
+                            "North Indian",
+                            "Burgers",
+                            "Ice Cream",
+                            "Biryani"
+                          ],
+                          "avgRating": 4.2,
+                          "parentId": "12801",
+                          "avgRatingString": "4.2",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 34,
+                            "lastMileTravel": 9.2,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "9.2 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 03:22:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "50% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/hunger-lust-mangaladevi-road-marnamikatte-mangaluru-87878",
+                          "type": "WEBLINK"
+                        }
+                      }
+                    ],
+                    "theme": "Restaurant_Group_WebView_SEO_PB_Theme",
+                    "widgetType": "WIDGET_TYPE_POPULAR_BRANDS",
+                    "style": {
+                      "width": {
+                        "type": "TYPE_RELATIVE",
+                        "value": 0.41111112,
+                        "reference": "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH"
+                      },
+                      "height": {
+                        "type": "TYPE_RELATIVE",
+                        "value": 0.7027027,
+                        "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
+                      },
+                      "layoutAlignment": "LAYOUT_ALIGNMENT_LEFT"
+                    },
+                    "collectionId": "84124"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.seo.widgets.v1.BasicContent",
+                "title": "Restaurants with online food delivery in Mangaluru",
+                "id": "popular_restaurants_title"
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+                "sortConfigs": [
+                  {
+                    "key": "relevance",
+                    "title": "Relevance (Default)",
+                    "selected": true,
+                    "defaultSelection": true
+                  },
+                  {
+                    "key": "deliveryTimeAsc",
+                    "title": "Delivery Time"
+                  },
+                  {
+                    "key": "modelBasedRatingDesc",
+                    "title": "Rating"
+                  },
+                  {
+                    "key": "costForTwoAsc",
+                    "title": "Cost: Low to High"
+                  },
+                  {
+                    "key": "costForTwoDesc",
+                    "title": "Cost: High to Low"
+                  }
+                ],
+                "restaurantCount": 723,
+                "facetList": [
+                  {
+                    "label": "Delivery Time",
+                    "id": "deliveryTime",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Fast Delivery",
+                        "id": "deliveryTimefacetquery1",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD",
+                    "subLabel": "Filter by"
+                  },
+                  {
+                    "label": "Cuisines",
+                    "id": "catalog_cuisines",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "American",
+                        "id": "query_american",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Andhra",
+                        "id": "query_andhra",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Arabian",
+                        "id": "query_arabian",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Asian",
+                        "id": "query_asian",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Bakery",
+                        "id": "query_bakery",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Barbecue",
+                        "id": "query_barbecue",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Bengali",
+                        "id": "query_bengali",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Beverages",
+                        "id": "query_beverages",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Biryani",
+                        "id": "query_biryani",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Burgers",
+                        "id": "query_burgers",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Cafe",
+                        "id": "query_cafe",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Cakes and Pastries",
+                        "id": "query_cakes_and_pastries",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Chaat",
+                        "id": "query_chaat",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Chinese",
+                        "id": "query_chinese",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Coastal",
+                        "id": "query_coastal",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Continental",
+                        "id": "query_continental",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Desserts",
+                        "id": "query_desserts",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "European",
+                        "id": "query_european",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Fast Food",
+                        "id": "query_fast_food",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Fast food",
+                        "id": "query_fast_food",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "German",
+                        "id": "query_german",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Goan",
+                        "id": "query_goan",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Grill",
+                        "id": "query_grill",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Gujarati",
+                        "id": "query_gujarati",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Healthy Food",
+                        "id": "query_healthy_food",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Home Food",
+                        "id": "query_home_food",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Hyderabadi",
+                        "id": "query_hyderabadi",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Ice Cream",
+                        "id": "query_ice_cream",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Ice Cream Cakes",
+                        "id": "query_ice_cream_cakes",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Indian",
+                        "id": "query_indian",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Italian",
+                        "id": "query_italian",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Italian-American",
+                        "id": "query_italian-american",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Japanese",
+                        "id": "query_japanese",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Juices",
+                        "id": "query_juices",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Kebabs",
+                        "id": "query_kebabs",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Kerala",
+                        "id": "query_kerala",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Korean",
+                        "id": "query_korean",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Lebanese",
+                        "id": "query_lebanese",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Lucknowi",
+                        "id": "query_lucknowi",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Malaysian",
+                        "id": "query_malaysian",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Mangalorean",
+                        "id": "query_mangalorean",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Mediterranean",
+                        "id": "query_mediterranean",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Mexican",
+                        "id": "query_mexican",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Middle Eastern",
+                        "id": "query_middle_eastern",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Momos",
+                        "id": "query_momos",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Mughlai",
+                        "id": "query_mughlai",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "North Eastern",
+                        "id": "query_north_eastern",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "North Indian",
+                        "id": "query_north_indian",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Oriental",
+                        "id": "query_oriental",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Pan-Asian",
+                        "id": "query_pan-asian",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Pastas",
+                        "id": "query_pastas",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Pizzas",
+                        "id": "query_pizzas",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Popular Brand Store",
+                        "id": "query_popular_brand_store",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Punjabi",
+                        "id": "query_punjabi",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Raja",
+                        "id": "query_raja",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Rajasthani",
+                        "id": "query_rajasthani",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Rolls & Wraps",
+                        "id": "query_rolls_&_wraps",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Salads",
+                        "id": "query_salads",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Seafood",
+                        "id": "query_seafood",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Singaporean",
+                        "id": "query_singaporean",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Snacks",
+                        "id": "query_snacks",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "South Indian",
+                        "id": "query_south_indian",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Street Food",
+                        "id": "query_street_food",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Sweets",
+                        "id": "query_sweets",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Tandoor",
+                        "id": "query_tandoor",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Thai",
+                        "id": "query_thai",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Thalis",
+                        "id": "query_thalis",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Tibetan",
+                        "id": "query_tibetan",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Turkish",
+                        "id": "query_turkish",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Waffle",
+                        "id": "query_waffle",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "rolls",
+                        "id": "query_rolls",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD",
+                    "canSearch": true,
+                    "subLabel": "Filter by cuisine",
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Explore",
+                    "id": "explore",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "New on Swiggy",
+                        "id": "newfacetquery1",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD"
+                  },
+                  {
+                    "label": "Ratings",
+                    "id": "rating",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Ratings 4.5+",
+                        "id": "ratingfacetquery3",
+                        "analytics": {
+                          
+                        }
+                      },
+                      {
+                        "label": "Ratings 4.0+",
+                        "id": "ratingfacetquery4",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Ratings 3.5+",
+                        "id": "ratingfacetquery5",
+                        "analytics": {
+                          
+                        }
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD",
+                    "subLabel": "Filter by"
+                  },
+                  {
+                    "label": "Veg/Non-Veg",
+                    "id": "isVeg",
+                    "selection": "SELECT_TYPE_SINGLESELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Pure Veg",
+                        "id": "isVegfacetquery2",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Non Veg",
+                        "id": "isVegfacetquery3",
+                        "analytics": {
+                          
+                        }
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_FLATTENED",
+                    "subLabel": "Filter by"
+                  },
+                  {
+                    "label": "Offers",
+                    "id": "restaurantOfferMultiTd",
+                    "selection": "SELECT_TYPE_SINGLESELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Offers",
+                        "id": "restaurantOfferMultiTdfacetquery3",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_FLATTENED",
+                    "subLabel": "Restaurants with"
+                  },
+                  {
+                    "label": "Cost for two",
+                    "id": "costForTwo",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Rs. 300-Rs. 600",
+                        "id": "costForTwofacetquery3",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Greater than Rs. 600",
+                        "id": "costForTwofacetquery4",
+                        "analytics": {
+                          
+                        }
+                      },
+                      {
+                        "label": "Less than Rs. 300",
+                        "id": "costForTwofacetquery5",
+                        "analytics": {
+                          
+                        },
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD",
+                    "subLabel": "Filter by"
+                  }
+                ]
               }
             }
           },
@@ -222,13466 +3413,3662 @@ app.get("/restaurent",(req,res)=>{
               "card": {
                 "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
                 "layout": {
-                  "rows": 1,
-                  "columns": 4,
-                  "horizontalScrollEnabled": true,
-                  "itemSpacing": 12,
-                  "lineSpacing": 10,
-                  "widgetPadding": {
-                    
-                  },
-                  "containerStyle": {
-                    "containerPadding": {
-                      "left": 10,
-                      "right": 10,
-                      "bottom": 16
-                    }
-                  },
-                  "scrollBar": {
-                    
-                  }
+                  "columns": 4
                 },
-                "id": "offerCollectionWidget_UX4",
+                "id": "restaurant_grid_listing",
                 "gridElements": {
                   "infoWithStyle": {
-                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
-                    "offers": [
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                    "restaurants": [
                       {
                         "info": {
-                          "header": "FLAT ₹75 OFF",
-                          "offerTagColor": "#E46D47",
-                          "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/15/feb15168-4b05-43bc-bddc-c153b28a29c0_YESBankMenuLogo2.jpg",
-                          "offerIds": [
-                            "ea6fa756-9716-43d3-8355-99c10e733e91"
+                          "id": "99437",
+                          "name": "UBQ by Barbeque Nation",
+                          "cloudinaryImageId": "s9hciu1do1noedahaztr",
+                          "locality": "Father Mullers road",
+                          "areaName": "Kankanady",
+                          "costForTwo": "₹300 for two",
+                          "cuisines": [
+                            "North Indian",
+                            "Barbecue",
+                            "Biryani",
+                            "Kebabs",
+                            "Mughlai",
+                            "Desserts"
                           ],
-                          "expiryTime": "1970-01-01T00:00:00Z",
-                          "couponCode": "NO CODE REQUIRED",
-                          "description": "ABOVE ₹399",
-                          "offerType": "offers",
-                          "restId": "18080",
-                          "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/15/feb15168-4b05-43bc-bddc-c153b28a29c0_YESBankMenuLogo2.jpg",
-                          "descriptionTextColor": "#7302060C"
+                          "avgRating": 4.2,
+                          "parentId": "10804",
+                          "avgRatingString": "4.2",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 37,
+                            "lastMileTravel": 7.2,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "35-40 mins",
+                            "lastMileTravelString": "7.2 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:30:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "50% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {
+                              
+                            },
+                            "subTitle": {
+                              
+                            },
+                            "message": {
+                              
+                            },
+                            "customIcon": {
+                              
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          "context": "seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9"
                         },
                         "cta": {
-                          "type": "OFFER_HALF_CARD"
-                        }
+                          "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-father-mullers-road-kankanady-mangaluru-99437",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
                       },
                       {
                         "info": {
-                          "header": "20% OFF UPTO ₹125",
-                          "offerTagColor": "#E46D47",
-                          "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/22/15adebf6-6636-42b6-8667-98a79ccf23d5_AMEX.png",
-                          "offerIds": [
-                            "888b15ac-5736-43ca-abe4-4583b8421b19"
+                          "id": "302695",
+                          "name": "Barbeque Nation",
+                          "cloudinaryImageId": "t5c6quo7mpag8ucmfjsm",
+                          "locality": "Father Mullers road",
+                          "areaName": "Kankanady",
+                          "costForTwo": "₹600 for two",
+                          "cuisines": [
+                            "North Indian",
+                            "Barbecue",
+                            "Biryani",
+                            "Kebabs",
+                            "Mughlai",
+                            "Desserts"
                           ],
-                          "expiryTime": "1970-01-01T00:00:00Z",
-                          "couponCode": "USE AMEXMATCHDAY",
-                          "description": "ABOVE ₹549",
-                          "offerType": "offers",
-                          "restId": "18080",
-                          "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/22/15adebf6-6636-42b6-8667-98a79ccf23d5_AMEX.png",
-                          "descriptionTextColor": "#7302060C"
+                          "avgRating": 4.3,
+                          "parentId": "2438",
+                          "avgRatingString": "4.3",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 33,
+                            "lastMileTravel": 7.2,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "7.2 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:30:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "50% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {
+                              
+                            },
+                            "subTitle": {
+                              
+                            },
+                            "message": {
+                              
+                            },
+                            "customIcon": {
+                              
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          "context": "seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9"
                         },
                         "cta": {
-                          "type": "OFFER_HALF_CARD"
-                        }
+                          "link": "https://www.swiggy.com/restaurants/barbeque-nation-father-mullers-road-kankanady-mangaluru-302695",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
                       },
                       {
                         "info": {
-                          "header": "15% OFF UPTO ₹300",
-                          "offerTagColor": "#E46D47",
-                          "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/312fbf04-dafc-41e0-a06d-3ef2e3955703_Citi.png",
-                          "offerIds": [
-                            "e54dc8b9-ae0f-4c65-93db-abe39edcfa11"
+                          "id": "746188",
+                          "name": "The Pasta Co.",
+                          "cloudinaryImageId": "0aece17895a79c80558e3c2946f741f4",
+                          "locality": "Kadri Village",
+                          "areaName": "Lalbagh",
+                          "costForTwo": "₹400 for two",
+                          "cuisines": [
+                            "Pastas",
+                            "American",
+                            "Continental",
+                            "Italian"
                           ],
-                          "expiryTime": "1970-01-01T00:00:00Z",
-                          "couponCode": "USE CITIFOODIE",
-                          "description": "ABOVE ₹1200",
-                          "offerType": "offers",
-                          "restId": "18080",
-                          "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/312fbf04-dafc-41e0-a06d-3ef2e3955703_Citi.png",
-                          "descriptionTextColor": "#7302060C"
+                          "avgRating": 4.5,
+                          "parentId": "443282",
+                          "avgRatingString": "4.5",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 35,
+                            "lastMileTravel": 6.8,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "6.8 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 01:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                                "description": "OnlyOnSwiggy"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "OnlyOnSwiggy",
+                                      "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "60% OFF",
+                            "subHeader": "UPTO ₹100"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {
+                              
+                            },
+                            "subTitle": {
+                              
+                            },
+                            "message": {
+                              
+                            },
+                            "customIcon": {
+                              
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          "context": "seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9"
                         },
                         "cta": {
-                          "type": "OFFER_HALF_CARD"
-                        }
+                          "link": "https://www.swiggy.com/restaurants/the-pasta-co-kadri-village-lalbagh-mangaluru-746188",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
                       },
                       {
                         "info": {
-                          "header": "FLAT ₹30 OFF",
-                          "offerTagColor": "#E46D47",
-                          "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/7a464ef1-4018-4e4b-84b0-752e720c6604_SimplMenuLogo.png",
-                          "offerIds": [
-                            "0293bf7c-7c05-4161-8b5e-4816e0c5b90f"
+                          "id": "98668",
+                          "name": "The Leela's kitchen",
+                          "cloudinaryImageId": "p7crtx9ydfwkwqrbkbj8",
+                          "locality": "Derebail",
+                          "areaName": "Lalbagh",
+                          "costForTwo": "₹250 for two",
+                          "cuisines": [
+                            "Chinese",
+                            "North Indian",
+                            "South Indian",
+                            "Ice Cream",
+                            "Biryani"
                           ],
-                          "expiryTime": "1970-01-01T00:00:00Z",
-                          "couponCode": "USE SIMPL30",
-                          "description": "ABOVE ₹300",
-                          "offerType": "offers",
-                          "restId": "18080",
-                          "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/7a464ef1-4018-4e4b-84b0-752e720c6604_SimplMenuLogo.png",
-                          "descriptionTextColor": "#7302060C"
+                          "avgRating": 4.2,
+                          "parentId": "15779",
+                          "avgRatingString": "4.2",
+                          "totalRatingsString": "10K+",
+                          "sla": {
+                            "deliveryTime": 29,
+                            "lastMileTravel": 3,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "25-30 mins",
+                            "lastMileTravelString": "3.0 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:45:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "₹125 OFF",
+                            "subHeader": "ABOVE ₹199",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {
+                              
+                            },
+                            "subTitle": {
+                              
+                            },
+                            "message": {
+                              
+                            },
+                            "customIcon": {
+                              
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          "context": "seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9"
                         },
                         "cta": {
-                          "type": "OFFER_HALF_CARD"
-                        }
+                          "link": "https://www.swiggy.com/restaurants/the-leelas-kitchen-derebail-lalbagh-mangaluru-98668",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "364949",
+                          "name": "The Good Bowl",
+                          "cloudinaryImageId": "0b3356a88b6fc5966c452c4c9b1b5e4a",
+                          "locality": "Balmatta road",
+                          "areaName": "Balmatta",
+                          "costForTwo": "₹400 for two",
+                          "cuisines": [
+                            "Biryani",
+                            "North Indian",
+                            "Pastas",
+                            "Punjabi",
+                            "Desserts",
+                            "Beverages"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "7918",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 36,
+                            "lastMileTravel": 7.9,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "35-40 mins",
+                            "lastMileTravelString": "7.9 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:59:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "60% OFF",
+                            "subHeader": "UPTO ₹110"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {
+                              
+                            },
+                            "subTitle": {
+                              
+                            },
+                            "message": {
+                              
+                            },
+                            "customIcon": {
+                              
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          "context": "seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9"
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/the-good-bowl-road-balmatta-mangaluru-364949",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "82858",
+                          "name": "Bombay Lucky Restaurant",
+                          "cloudinaryImageId": "j5p3aiqci22sqrpgg9sx",
+                          "locality": "Mohammed Ali Road",
+                          "areaName": "Bunder",
+                          "costForTwo": "₹300 for two",
+                          "cuisines": [
+                            "Chinese",
+                            "North Indian",
+                            "South Indian",
+                            "Ice Cream",
+                            "Biryani"
+                          ],
+                          "avgRating": 4.3,
+                          "parentId": "12804",
+                          "avgRatingString": "4.3",
+                          "totalRatingsString": "5K+",
+                          "sla": {
+                            "deliveryTime": 31,
+                            "lastMileTravel": 8.4,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "8.4 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 00:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "aggregatedDiscountInfoV2": {
+                            
+                          },
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "orderabilityCommunication": {
+                            "title": {
+                              
+                            },
+                            "subTitle": {
+                              
+                            },
+                            "message": {
+                              
+                            },
+                            "customIcon": {
+                              
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          "context": "seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9"
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/bombay-lucky-restaurant-mohammed-ali-road-bunder-mangaluru-82858",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "769989",
+                          "name": "the menu kitchen",
+                          "cloudinaryImageId": "71f95af64cc899103d040aa28bc1d44c",
+                          "locality": "Don Bosco Hall Cross Road",
+                          "areaName": "Lalbagh",
+                          "costForTwo": "₹250 for two",
+                          "cuisines": [
+                            "Biryani",
+                            "Chinese",
+                            "Snacks"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "461697",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "500+",
+                          "sla": {
+                            "deliveryTime": 35,
+                            "lastMileTravel": 8.2,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "35-40 mins",
+                            "lastMileTravelString": "8.2 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 04:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "60% OFF",
+                            "subHeader": "UPTO ₹120"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {
+                              
+                            },
+                            "subTitle": {
+                              
+                            },
+                            "message": {
+                              
+                            },
+                            "customIcon": {
+                              
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "isNewlyOnboarded": true,
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          "context": "seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9"
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/the-menu-kitchen-don-bosco-hall-cross-road-lalbagh-mangaluru-769989",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "99531",
+                          "name": "The Belgian Waffle Co.",
+                          "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
+                          "locality": "Light House Hill Road",
+                          "areaName": "KS Rao Nagar",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Waffle",
+                            "Desserts",
+                            "Ice Cream",
+                            "Beverages"
+                          ],
+                          "avgRating": 4.7,
+                          "veg": true,
+                          "parentId": "2233",
+                          "avgRatingString": "4.7",
+                          "totalRatingsString": "5K+",
+                          "sla": {
+                            "deliveryTime": 33,
+                            "lastMileTravel": 6.9,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30-35 mins",
+                            "lastMileTravelString": "6.9 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-24 00:30:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                "description": "pureveg"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "pureveg",
+                                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "20% OFF",
+                            "subHeader": "UPTO ₹50"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {
+                              
+                            },
+                            "subTitle": {
+                              
+                            },
+                            "message": {
+                              
+                            },
+                            "customIcon": {
+                              
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          "context": "seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9"
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/the-belgian-waffle-co-light-house-hill-road-ks-rao-nagar-mangaluru-99531",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "364948",
+                          "name": "LunchBox - Meals and Thalis",
+                          "cloudinaryImageId": "rtlfg1csfrg2691e56wt",
+                          "locality": "Balmatta road",
+                          "areaName": "Hampankatta",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Biryani",
+                            "North Indian",
+                            "Punjabi",
+                            "Healthy Food",
+                            "Desserts",
+                            "Beverages"
+                          ],
+                          "avgRating": 4.4,
+                          "parentId": "4925",
+                          "avgRatingString": "4.4",
+                          "totalRatingsString": "5K+",
+                          "sla": {
+                            "deliveryTime": 35,
+                            "lastMileTravel": 7.9,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "35-40 mins",
+                            "lastMileTravelString": "7.9 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2024-03-23 23:59:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                
+                              },
+                              "textBased": {
+                                
+                              },
+                              "textExtendedBadges": {
+                                
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "ITEMS",
+                            "subHeader": "AT ₹159"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {
+                              
+                            },
+                            "subTitle": {
+                              
+                            },
+                            "message": {
+                              
+                            },
+                            "customIcon": {
+                              
+                            }
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {
+                                
+                              },
+                              "video": {
+                                
+                              }
+                            }
+                          },
+                          "reviewsSummary": {
+                            
+                          },
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {
+                            
+                          }
+                        },
+                        "analytics": {
+                          "context": "seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9"
+                        },
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/lunchbox-meals-and-thalis-balmatta-road-hampankatta-mangaluru-364948",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
                       }
                     ],
-                    "habitMilestoneInfo": {
-                      "callout": {
-                        
-                      }
-                    },
-                    "loyaltyDiscoverPresentationInfo": {
-                      "logoCtx": {
-                        
-                      }
-                    }
+                    "theme": "SeoRestaurantListingGridWidget"
                   }
                 }
               }
             }
           },
           {
-            "groupedCard": {
-              "cardGroupMap": {
-                "REGULAR": {
-                  "cards": [
-                    {
-                      "card": {
-                        "card": {
-                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
-                          "badges": {
-                            
-                          },
-                          "vegOnlyDetails": {
-                            "imageId": "AutoVegOnly_qkjowj",
-                            "title": "Showing only vegetarian options.",
-                            "description": "Tap on the VEG ONLY button to turn off the setting"
-                          },
-                          "topRatedFilter": {
-                            
-                          },
-                          "kidsCategoryFilter": {
-                            "attributes": {
-                              "displayText": "Kids Favourites",
-                              "tooltip": {
-                                "enabled": true,
-                                "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
-                              }
-                            }
-                          },
-                          "vegFilter": {
-                            "attributes": {
-                              "displayText": "VEG"
-                            }
-                          },
-                          "nonvegFilter": {
-                            "attributes": {
-                              "displayText": "NONVEG"
-                            }
-                          }
-                        },
-                        "relevance": {
-                          "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
-                          "sectionId": "MENU_FILTER_TOGGLE"
-                        }
-                      }
-                    },
-                    {
-                      "card": {
-                        "card": {
-                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
-                          "title": "Recommended",
-                          "itemCards": [
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319828",
-                                  "name": "Veg Bhagyashree Special",
-                                  "category": "Indian",
-                                  "imageId": "dj2uuan0vzxe4xxmueqa",
-                                  "isVeg": 1,
-                                  "price": 23000,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "showImage": true,
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319831",
-                                  "name": "Veg Tiranga",
-                                  "category": "Indian",
-                                  "imageId": "j0jqinng6smpowmvhl7i",
-                                  "isVeg": 1,
-                                  "price": 25000,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "showImage": true,
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319836",
-                                  "name": "Kofta Sanj Savera",
-                                  "category": "Indian",
-                                  "imageId": "hno1pu4xpvicurivox0d",
-                                  "isVeg": 1,
-                                  "price": 22500,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "showImage": true,
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319860",
-                                  "name": "Murgh Angara",
-                                  "category": "Indian",
-                                  "imageId": "tiq9rbnf8jgtmqocxcwt",
-                                  "price": 24000,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "NONVEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "showImage": true,
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319980",
-                                  "name": "Paneer Satay",
-                                  "category": "Chinese",
-                                  "imageId": "cpibmtlhszv1iofidygb",
-                                  "isVeg": 1,
-                                  "price": 21500,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "showImage": true,
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319997",
-                                  "name": "Chicken Lollipop",
-                                  "category": "Chinese",
-                                  "imageId": "w1xdguxfvrcwp57j8nsd",
-                                  "price": 25000,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "NONVEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "showImage": true,
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            }
-                          ],
-                          "type": "CATEGORY_TYPE_RECOMMENDED"
-                        }
-                      }
-                    },
-                    {
-                      "card": {
-                        "card": {
-                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
-                          "title": "Quick Bites",
-                          "itemCards": [
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319729",
-                                  "name": "Aloo Chaat",
-                                  "category": "Quick Bites",
-                                  "isVeg": 1,
-                                  "price": 13000,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "type": "ITEM",
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319730",
-                                  "name": "Onion Pakora",
-                                  "category": "Quick Bites",
-                                  "isVeg": 1,
-                                  "price": 12500,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "type": "ITEM",
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319731",
-                                  "name": "Mixed Veg Pakora",
-                                  "category": "Quick Bites",
-                                  "isVeg": 1,
-                                  "price": 14000,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "type": "ITEM",
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319732",
-                                  "name": "Cheese Chilli Toast",
-                                  "category": "Quick Bites",
-                                  "isVeg": 1,
-                                  "price": 18000,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "type": "ITEM",
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319733",
-                                  "name": "Cheese Pakora",
-                                  "category": "Quick Bites",
-                                  "isVeg": 1,
-                                  "price": 13500,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "type": "ITEM",
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            },
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3319734",
-                                  "name": "Egg Omelette",
-                                  "category": "Quick Bites",
-                                  "price": 10000,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "EGG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "type": "ITEM",
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    {
-                      "card": {
-                        "card": {
-                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-                          "title": "Indian",
-                          "categories": [
-                            {
-                              "title": "Soups",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319735",
-                                      "name": "Cream of Tomato Soup",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 10000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319736",
-                                      "name": "Cream of Vegetable Soup",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 10000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319737",
-                                      "name": "Cream of Palak Soup",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 10000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319738",
-                                      "name": "Cream of Mushroom Soup",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 12000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319739",
-                                      "name": "Mushroom & Spinach Soup",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 12000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319740",
-                                      "name": "Cream of Chicken Soup",
-                                      "category": "Indian",
-                                      "price": 12000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Veg Starters",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319741",
-                                      "name": "Stuffed Mushroom",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 21000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319742",
-                                      "name": "Finger Chips",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 12500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319743",
-                                      "name": "Paneer Koliwada",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 23000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319744",
-                                      "name": "Baby corn Mushroom Tikka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 21000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319745",
-                                      "name": "Mushroom Tikka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319746",
-                                      "name": "Gobi Tikka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319747",
-                                      "name": "Tandoori Aloo",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319748",
-                                      "name": "Veg Seekh Kebab",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319749",
-                                      "name": "Veg Hara Bhara Kebab",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319750",
-                                      "name": "Paneer Tikka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319751",
-                                      "name": "Paneer Reshmi Tikka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319752",
-                                      "name": "Paneer Lehsuni Tikka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319753",
-                                      "name": "Paneer Achari Tikka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319754",
-                                      "name": "Paneer Banjara Tikka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319755",
-                                      "name": "Paneer Malai Tikka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 23000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Egg Starter",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319756",
-                                      "name": "Egg Bhurji",
-                                      "category": "Indian",
-                                      "price": 12000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "EGG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Chicken Starters",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319757",
-                                      "name": "Tandoori Chicken",
-                                      "category": "Indian",
-                                      "price": 21000,
-                                      "variants": {
-                                        "variantGroups": [
-                                          {
-                                            "groupId": "112180",
-                                            "name": "Quantity",
-                                            "variations": [
-                                              {
-                                                "name": "Half",
-                                                "default": 1,
-                                                "id": "311299",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Full",
-                                                "price": 13000,
-                                                "id": "311300",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319758",
-                                      "name": "Pepper Tandoori Chicken",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        "variantGroups": [
-                                          {
-                                            "groupId": "112181",
-                                            "name": "Quantity",
-                                            "variations": [
-                                              {
-                                                "name": "Half",
-                                                "default": 1,
-                                                "id": "311301",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Full",
-                                                "price": 13000,
-                                                "id": "311302",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319759",
-                                      "name": "Murgh Tikka",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319760",
-                                      "name": "Murgh Reshmi Kebab",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319761",
-                                      "name": "Murgh Malai Kebab",
-                                      "category": "Indian",
-                                      "price": 26000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319762",
-                                      "name": "Afghani Kebab",
-                                      "category": "Indian",
-                                      "price": 26000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319763",
-                                      "name": "Murgh Sholey Kebab",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319764",
-                                      "name": "Murgh Pahadi Kebab",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319765",
-                                      "name": "Murgh Kasturi Kebab",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319766",
-                                      "name": "Lehsuni Kebab",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319767",
-                                      "name": "Murgh Banjara (Dry)",
-                                      "category": "Indian",
-                                      "price": 26000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319768",
-                                      "name": "Murgh Pudina Kebab",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319769",
-                                      "name": "Bhagyashree Special Chicken Kebab",
-                                      "category": "Indian",
-                                      "price": 38000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319770",
-                                      "name": "Chicken Seekh Kebab",
-                                      "category": "Indian",
-                                      "price": 28000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319771",
-                                      "name": "Chicken Patri Kebab",
-                                      "category": "Indian",
-                                      "price": 32500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319773",
-                                      "name": "Angara Kebab",
-                                      "category": "Indian",
-                                      "price": 26000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319774",
-                                      "name": "Tangdi Kebab (2 Pcs)",
-                                      "category": "Indian",
-                                      "price": 30000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Mutton Starter",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319772",
-                                      "name": "Mutton Seekh Kebab",
-                                      "category": "Indian",
-                                      "price": 32000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Seafood Starters",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319775",
-                                      "name": "Tandoori Pomfret",
-                                      "category": "Indian",
-                                      "price": 45000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319776",
-                                      "name": "Fish Tikka",
-                                      "category": "Indian",
-                                      "price": 39000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319777",
-                                      "name": "Tandoori Surmai",
-                                      "category": "Indian",
-                                      "price": 48000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319778",
-                                      "name": "Fish Pudina Tikka",
-                                      "category": "Indian",
-                                      "price": 39000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319779",
-                                      "name": "Fish Ajwaini Tikka",
-                                      "category": "Indian",
-                                      "price": 39000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319780",
-                                      "name": "Tandoori Prawns",
-                                      "category": "Indian",
-                                      "price": 40000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319781",
-                                      "name": "Prawns Pepper Tikka",
-                                      "category": "Indian",
-                                      "price": 39000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319782",
-                                      "name": "Prawns Banjara Tikka",
-                                      "category": "Indian",
-                                      "price": 39000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Veg Main Course",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319783",
-                                      "name": "Veg Kadai",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319784",
-                                      "name": "Veg Kolhapuri",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319785",
-                                      "name": "Veg Makhani",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319786",
-                                      "name": "Veg Jalfrezi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319787",
-                                      "name": "Veg Handi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319788",
-                                      "name": "Veg Hyderabadi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319789",
-                                      "name": "Veg Chilli Millli",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319790",
-                                      "name": "Green Peas Curry",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319791",
-                                      "name": "Green Peas Palak",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319792",
-                                      "name": "Dum Aloo Kashmiri",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319793",
-                                      "name": "Dum Aloo Punjabi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319794",
-                                      "name": "Veg Bhuna",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319795",
-                                      "name": "Veg Patiala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 24500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319796",
-                                      "name": "Aloo Gobi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319797",
-                                      "name": "Aloo Mattar",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319798",
-                                      "name": "Aloo Methi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319799",
-                                      "name": "Jeera Aloo",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 17500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319800",
-                                      "name": "Veg Kofta Curry",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319801",
-                                      "name": "Bhindi Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319802",
-                                      "name": "Bhindi Tawa",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319803",
-                                      "name": "Baby corn Mushroom Tawa",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319804",
-                                      "name": "Mushroom Peas Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319805",
-                                      "name": "Methi Malai Mattar",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319806",
-                                      "name": "Veg Angara",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319807",
-                                      "name": "Veg Maratha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319808",
-                                      "name": "Veg Keema Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319809",
-                                      "name": "Malai Kofta",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319810",
-                                      "name": "Navrattan Korma",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319811",
-                                      "name": "Veg Jaipuri",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319812",
-                                      "name": "Corn Palak",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319813",
-                                      "name": "Cheese Peas Curry",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319814",
-                                      "name": "Veg Kebab Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319815",
-                                      "name": "Veg Diwani Handi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319816",
-                                      "name": "Tamatar Badshahi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319817",
-                                      "name": "Stuffed Tomato",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319818",
-                                      "name": "Stuffed Capsicum",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319819",
-                                      "name": "Baby corn Palak",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319820",
-                                      "name": "Mushroom Palak",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319821",
-                                      "name": "Chana Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319822",
-                                      "name": "Baingan Bharta",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 17500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319823",
-                                      "name": "Baingan Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 17500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319824",
-                                      "name": "Kaju Butter Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 23000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319825",
-                                      "name": "Kaju Curry",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 23000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319826",
-                                      "name": "Mushroom Kadai",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319827",
-                                      "name": "Baby corn Kadai",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319828",
-                                      "name": "Veg Bhagyashree Special",
-                                      "category": "Indian",
-                                      "imageId": "dj2uuan0vzxe4xxmueqa",
-                                      "isVeg": 1,
-                                      "price": 23000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319829",
-                                      "name": "Veg Lahori",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319830",
-                                      "name": "Veg Rajwada",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319831",
-                                      "name": "Veg Tiranga",
-                                      "category": "Indian",
-                                      "imageId": "j0jqinng6smpowmvhl7i",
-                                      "isVeg": 1,
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319832",
-                                      "name": "Veg Banjara",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319833",
-                                      "name": "Veg Nilgiri Korma",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319834",
-                                      "name": "Kadhi Pakoda",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319835",
-                                      "name": "Lehsuni Palak",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319836",
-                                      "name": "Kofta Sanj Savera",
-                                      "category": "Indian",
-                                      "imageId": "hno1pu4xpvicurivox0d",
-                                      "isVeg": 1,
-                                      "price": 22500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Paneer Main Course",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319837",
-                                      "name": "Paneer Mattar",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 21000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319838",
-                                      "name": "Paneer Butter Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 21000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319839",
-                                      "name": "Paneer Pasanda",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319840",
-                                      "name": "Methi Paneer",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 21000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319841",
-                                      "name": "Paneer Bhurji",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 23000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319842",
-                                      "name": "Paneer Palak",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 21000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319843",
-                                      "name": "Paneer Kadai",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319844",
-                                      "name": "Paneer Tikka Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319845",
-                                      "name": "Paneer Mushroom Baby corn",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319846",
-                                      "name": "Paneer Kofta",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319847",
-                                      "name": "Paneer Lazeez",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319848",
-                                      "name": "Paneer Mirch Masala",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319849",
-                                      "name": "Paneer Lahori",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319850",
-                                      "name": "Paneer Banjara",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319851",
-                                      "name": "Paneer Angara",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319852",
-                                      "name": "Paneer Handi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319853",
-                                      "name": "Paneer Rajwada",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Egg Main Course",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319854",
-                                      "name": "Egg Masala",
-                                      "category": "Indian",
-                                      "price": 12000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "EGG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Chicken Main Course",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319855",
-                                      "name": "Murgh Masala",
-                                      "category": "Indian",
-                                      "price": 22500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319856",
-                                      "name": "Murgh Kadai",
-                                      "category": "Indian",
-                                      "price": 23000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319857",
-                                      "name": "Murgh Keema Masala",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319858",
-                                      "name": "Murgh Adraki",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319859",
-                                      "name": "Murgh Hyderabadi",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319860",
-                                      "name": "Murgh Angara",
-                                      "category": "Indian",
-                                      "imageId": "tiq9rbnf8jgtmqocxcwt",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319861",
-                                      "name": "Murgh Maratha (Gravy)",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319862",
-                                      "name": "Murgh Tikka Masala",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319863",
-                                      "name": "Murgh Reshmi Tikka Masala",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319864",
-                                      "name": "Murgh Kali Mirch",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319865",
-                                      "name": "Murgh Methi Tawa",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319866",
-                                      "name": "Murgh Banjara (Gravy)",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319867",
-                                      "name": "Murgh Bhuna",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319868",
-                                      "name": "Murgh Tangdi Kebab Masala",
-                                      "category": "Indian",
-                                      "price": 27500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319869",
-                                      "name": "Murgh Rogan",
-                                      "category": "Indian",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319870",
-                                      "name": "Murgh Patiala",
-                                      "category": "Indian",
-                                      "price": 32500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319871",
-                                      "name": "Murgh Bhagyashree Special",
-                                      "category": "Indian",
-                                      "price": 32500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319872",
-                                      "name": "Butter Chicken",
-                                      "category": "Indian",
-                                      "price": 29500,
-                                      "variants": {
-                                        "variantGroups": [
-                                          {
-                                            "groupId": "112182",
-                                            "name": "Quantity",
-                                            "variations": [
-                                              {
-                                                "name": "Half",
-                                                "default": 1,
-                                                "id": "311303",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Full",
-                                                "price": 25500,
-                                                "id": "311304",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319873",
-                                      "name": "Murgh Handi",
-                                      "category": "Indian",
-                                      "price": 28000,
-                                      "variants": {
-                                        "variantGroups": [
-                                          {
-                                            "groupId": "112183",
-                                            "name": "Quantity",
-                                            "variations": [
-                                              {
-                                                "name": "Half",
-                                                "default": 1,
-                                                "id": "311305",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Full",
-                                                "price": 22000,
-                                                "id": "311306",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319874",
-                                      "name": "Murgh Mussallam",
-                                      "category": "Indian",
-                                      "price": 30000,
-                                      "variants": {
-                                        "variantGroups": [
-                                          {
-                                            "groupId": "112184",
-                                            "name": "Quantity",
-                                            "variations": [
-                                              {
-                                                "name": "Half",
-                                                "default": 1,
-                                                "id": "311307",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Full",
-                                                "price": 25000,
-                                                "id": "311308",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319875",
-                                      "name": "Murgh Lazeez",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319876",
-                                      "name": "Murgh Malwani",
-                                      "category": "Indian",
-                                      "price": 26000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319877",
-                                      "name": "Murgh Maratha (Gravy)",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319878",
-                                      "name": "Murgh Kolhapuri",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319879",
-                                      "name": "Murgh Rara",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319880",
-                                      "name": "Murgh Bukhara",
-                                      "category": "Indian",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Mutton Main Course",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319881",
-                                      "name": "Mutton Masala",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319882",
-                                      "name": "Mutton Bhuna",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319883",
-                                      "name": "Mutton Kali Mirch",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319884",
-                                      "name": "Mutton Rogan Josh",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319885",
-                                      "name": "Mutton Hyderabadi",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319886",
-                                      "name": "Keema Mattar",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319887",
-                                      "name": "Mutton Fry",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319888",
-                                      "name": "Mutton Angara",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319889",
-                                      "name": "Mutton Malwani",
-                                      "category": "Indian",
-                                      "price": 31000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319890",
-                                      "name": "Mutton Handi",
-                                      "category": "Indian",
-                                      "price": 29500,
-                                      "variants": {
-                                        "variantGroups": [
-                                          {
-                                            "groupId": "112185",
-                                            "name": "Quantity",
-                                            "variations": [
-                                              {
-                                                "name": "Half",
-                                                "default": 1,
-                                                "id": "311309",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Full",
-                                                "price": 28000,
-                                                "id": "311310",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319891",
-                                      "name": "Mutton Rara",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319892",
-                                      "name": "Mutton Dabba Gosh",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319893",
-                                      "name": "Mutton Saaliboti",
-                                      "category": "Indian",
-                                      "price": 29000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Dal",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319894",
-                                      "name": "Dal Fry",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 12500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319895",
-                                      "name": "Butter Dal Tadka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 14000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319896",
-                                      "name": "Dal Tadka",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 13500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319897",
-                                      "name": "Dal Kolhapuri",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 13500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319898",
-                                      "name": "Dal Bahar",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 13000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319899",
-                                      "name": "Dal Makhani",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319900",
-                                      "name": "Lehsuni Dal Palak",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 17500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Biryanis",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319901",
-                                      "name": "Veg Biryani",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319902",
-                                      "name": "Egg Biryani",
-                                      "category": "Indian",
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "EGG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319903",
-                                      "name": "Chicken Biryani",
-                                      "category": "Indian",
-                                      "price": 27500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319904",
-                                      "name": "Chicken Tikka Biryani",
-                                      "category": "Indian",
-                                      "price": 30000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319905",
-                                      "name": "Mutton Biryani",
-                                      "category": "Indian",
-                                      "price": 32500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319906",
-                                      "name": "Mutton Hyderabadi Biryani",
-                                      "category": "Indian",
-                                      "price": 32500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319907",
-                                      "name": "Prawns Biryani",
-                                      "category": "Indian",
-                                      "price": 35000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Rice",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319908",
-                                      "name": "Steamed Rice",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 12000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319909",
-                                      "name": "Jeera Rice",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 13000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319910",
-                                      "name": "Veg Pulao",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319911",
-                                      "name": "Biryani Rice",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 13000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319912",
-                                      "name": "Ghee Rice",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319913",
-                                      "name": "Mattar Pulao",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319914",
-                                      "name": "Kashmiri Pulao",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319915",
-                                      "name": "Palak Fried Rice",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319916",
-                                      "name": "Dal Khichdi",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319917",
-                                      "name": "Khichdi Kadhi Rice",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319918",
-                                      "name": "Curd Rice",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 15000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Indian Breads",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319919",
-                                      "name": "Tandoori Roti",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 2500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319920",
-                                      "name": "Butter Roti",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 2800,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319921",
-                                      "name": "Naan",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 3500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319922",
-                                      "name": "Butter Naan",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 4000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319923",
-                                      "name": "Paratha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 4000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319924",
-                                      "name": "Butter Paratha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 4500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319925",
-                                      "name": "Kulcha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 4000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319926",
-                                      "name": "Butter Kulcha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 4300,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319927",
-                                      "name": "Masala Kulcha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 4800,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319928",
-                                      "name": "Methi Paratha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 8000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319929",
-                                      "name": "Pudina Paratha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 8000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319930",
-                                      "name": "Aloo Paratha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319931",
-                                      "name": "Stuffed Onion Paratha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319932",
-                                      "name": "Stuffed Veg Paratha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319933",
-                                      "name": "Stuffed Aloo Kulcha",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319934",
-                                      "name": "Garlic Naan",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 8000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319935",
-                                      "name": "Butter Garlic Naan",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 8500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319936",
-                                      "name": "Cheese Naan",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 10000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319937",
-                                      "name": "Paneer Cheese Naan",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 12000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319938",
-                                      "name": "Khasta Roti",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 5000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319939",
-                                      "name": "Missi Roti",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 4500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319940",
-                                      "name": "Rumali Roti",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 4500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319941",
-                                      "name": "Roti Ki Tokri",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 45000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Accompaniments",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319942",
-                                      "name": "Roasted Papad",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 2000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319943",
-                                      "name": "Fried Papad",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 2800,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319944",
-                                      "name": "Masala Papad",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 3500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319945",
-                                      "name": "Fresh Green Salad",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 9000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319946",
-                                      "name": "Veg Raita",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 9000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319947",
-                                      "name": "Pineapple Raita",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 9000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319948",
-                                      "name": "Boondi Raita",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 9000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319949",
-                                      "name": "Tadka Raita",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 9000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319950",
-                                      "name": "Curd",
-                                      "category": "Indian",
-                                      "isVeg": 1,
-                                      "price": 8000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    {
-                      "card": {
-                        "card": {
-                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-                          "title": "Chinese",
-                          "categories": [
-                            {
-                              "title": "Veg Soups",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319951",
-                                      "name": "Sweet Corn Veg Soup",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319952",
-                                      "name": "Baby corn Veg Soup",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319953",
-                                      "name": "Veg Lung Fung Soup",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319954",
-                                      "name": "Veg Talumein Soup",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319955",
-                                      "name": "Veg Clear Soup",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 9000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319956",
-                                      "name": "Veg Manchow Soup",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319957",
-                                      "name": "Veg Hot & Sour Soup",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319958",
-                                      "name": "Veg Noodles Soup",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 9500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Non-Veg Soups",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319959",
-                                      "name": "Sweet Corn Chicken Soup",
-                                      "category": "Chinese",
-                                      "price": 10000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319960",
-                                      "name": "Baby corn Chicken Soup",
-                                      "category": "Chinese",
-                                      "price": 10000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319961",
-                                      "name": "Chicken Lung Fung Soup",
-                                      "category": "Chinese",
-                                      "price": 10000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319962",
-                                      "name": "Chicken Clear Soup",
-                                      "category": "Chinese",
-                                      "price": 10000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319963",
-                                      "name": "Chicken Manchow Soup",
-                                      "category": "Chinese",
-                                      "price": 10000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319964",
-                                      "name": "Chicken Hot & Sour Soup",
-                                      "category": "Chinese",
-                                      "price": 10500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319965",
-                                      "name": "Chicken Noodles Soup",
-                                      "category": "Chinese",
-                                      "price": 11000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319966",
-                                      "name": "Seafood Soup",
-                                      "category": "Chinese",
-                                      "description": "Contains prawns & fish.",
-                                      "price": 13000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319967",
-                                      "name": "Seafood Lung Fung Soup",
-                                      "category": "Chinese",
-                                      "description": "Contains prawns & fish.",
-                                      "price": 13000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Veg Starters",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319968",
-                                      "name": "Veg Sesame Toast",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319969",
-                                      "name": "Veg Crispy",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319970",
-                                      "name": "Veg Spring Roll",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319971",
-                                      "name": "Veg Fried Wonton",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319972",
-                                      "name": "Veg 65",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 19500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319973",
-                                      "name": "Veg Balls in Garlic Sauce",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319974",
-                                      "name": "Veg Gold Coin",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 19500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319975",
-                                      "name": "Veg Manchurian",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 18500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319976",
-                                      "name": "Veg Chilli",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 18500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319977",
-                                      "name": "Golden Fried Baby corn",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 18500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319978",
-                                      "name": "Honey Cheese Potato",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 22500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319979",
-                                      "name": "Paneer 65",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 21500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319980",
-                                      "name": "Paneer Satay",
-                                      "category": "Chinese",
-                                      "imageId": "cpibmtlhszv1iofidygb",
-                                      "isVeg": 1,
-                                      "price": 21500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319981",
-                                      "name": "Paneer Salt & Pepper",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 21500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319982",
-                                      "name": "Paneer Hot Pan",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319983",
-                                      "name": "Paneer in Schezwan Sauce",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 21500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319984",
-                                      "name": "Paneer Chilli",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 21500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319985",
-                                      "name": "Paneer Manchurian",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 21500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319986",
-                                      "name": "Paneer Crispy",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 21500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319987",
-                                      "name": "Paneer Hot Garlic Sauce",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 21500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319988",
-                                      "name": "Cauliflower Manchurian",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319989",
-                                      "name": "Crispy Potato Schezwan Sauce",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319990",
-                                      "name": "Mushroom Manchurian",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319991",
-                                      "name": "Mushroom Chilli",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319992",
-                                      "name": "Veg Mushroom & Bamboo Shoots",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319993",
-                                      "name": "Vegetables in Choice of Sauce",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        "variantGroups": [
-                                          {
-                                            "groupId": "112186",
-                                            "name": "Sauces",
-                                            "variations": [
-                                              {
-                                                "name": "Hot Bean Sauce",
-                                                "default": 1,
-                                                "id": "311311",
-                                                "inStock": 1,
-                                                "isVeg": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Hong Kong Sauce",
-                                                "id": "311312",
-                                                "inStock": 1,
-                                                "isVeg": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Thai Sauce",
-                                                "id": "311313",
-                                                "inStock": 1,
-                                                "isVeg": 1,
-                                                "isEnabled": 1
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319994",
-                                      "name": "Veg Taronest",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319995",
-                                      "name": "Baby corn Manchurian",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 19000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Chicken Starters",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319996",
-                                      "name": "Chicken Sesame Toast",
-                                      "category": "Chinese",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319997",
-                                      "name": "Chicken Lollipop",
-                                      "category": "Chinese",
-                                      "imageId": "w1xdguxfvrcwp57j8nsd",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319998",
-                                      "name": "Chicken Lollipop in Garlic Sauce",
-                                      "category": "Chinese",
-                                      "price": 27500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3319999",
-                                      "name": "Chicken 65",
-                                      "category": "Chinese",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320000",
-                                      "name": "Chicken Satay",
-                                      "category": "Chinese",
-                                      "price": 27000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320001",
-                                      "name": "Chicken Hot Pan",
-                                      "category": "Chinese",
-                                      "price": 30000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320002",
-                                      "name": "Salt & Pepper Chicken",
-                                      "category": "Chinese",
-                                      "price": 27500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320003",
-                                      "name": "Chicken Spring Roll",
-                                      "category": "Chinese",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320004",
-                                      "name": "Chicken Crispy",
-                                      "category": "Chinese",
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320005",
-                                      "name": "Chicken Chilli",
-                                      "category": "Chinese",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320006",
-                                      "name": "Chicken Manchurian",
-                                      "category": "Chinese",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320007",
-                                      "name": "Chicken in Schezwan Sauce",
-                                      "category": "Chinese",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320008",
-                                      "name": "Chicken Fried Wonton",
-                                      "category": "Chinese",
-                                      "price": 23000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320009",
-                                      "name": "Ginger Chicken",
-                                      "category": "Chinese",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320010",
-                                      "name": "Garlic Chicken",
-                                      "category": "Chinese",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320011",
-                                      "name": "Sweet & Sour Chicken",
-                                      "category": "Chinese",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320012",
-                                      "name": "Chicken in Oyster Sauce",
-                                      "category": "Chinese",
-                                      "price": 26000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320013",
-                                      "name": "Chicken Taronest",
-                                      "category": "Chinese",
-                                      "price": 27000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320014",
-                                      "name": "Chicken Meat Balls in Garlic Sauce",
-                                      "category": "Chinese",
-                                      "price": 26000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Seafood Starters",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320015",
-                                      "name": "Fish Chilli",
-                                      "category": "Chinese",
-                                      "price": 35000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320016",
-                                      "name": "Fish Manchurian",
-                                      "category": "Chinese",
-                                      "price": 35000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320017",
-                                      "name": "Fish in Choice of Sauce",
-                                      "category": "Chinese",
-                                      "price": 35000,
-                                      "variants": {
-                                        "variantGroups": [
-                                          {
-                                            "groupId": "112187",
-                                            "name": "Sauces",
-                                            "variations": [
-                                              {
-                                                "name": "Thai Sauce",
-                                                "default": 1,
-                                                "id": "311314",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Ginger Garlic Sauce",
-                                                "id": "311315",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Schezwan Sauce",
-                                                "id": "311316",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Oyster Sauce",
-                                                "id": "311317",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320018",
-                                      "name": "Golden Fried Prawns",
-                                      "category": "Chinese",
-                                      "price": 37500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320019",
-                                      "name": "Salt & Pepper Prawns",
-                                      "category": "Chinese",
-                                      "price": 37500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320020",
-                                      "name": "Prawns Chilli",
-                                      "category": "Chinese",
-                                      "price": 37500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320021",
-                                      "name": "Prawns Manchurian",
-                                      "category": "Chinese",
-                                      "price": 37500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320022",
-                                      "name": "Prawns 65",
-                                      "category": "Chinese",
-                                      "price": 37500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320023",
-                                      "name": "Prawns Satay",
-                                      "category": "Chinese",
-                                      "price": 37500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320024",
-                                      "name": "Prawns in Hot Pan",
-                                      "category": "Chinese",
-                                      "price": 37500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320025",
-                                      "name": "Prawns in Choice of Sauce",
-                                      "category": "Chinese",
-                                      "price": 37500,
-                                      "variants": {
-                                        "variantGroups": [
-                                          {
-                                            "groupId": "112188",
-                                            "name": "Sauces",
-                                            "variations": [
-                                              {
-                                                "name": "Ginger Garlic Sauce",
-                                                "default": 1,
-                                                "id": "311318",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Blackbean Sauce",
-                                                "id": "311319",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              },
-                                              {
-                                                "name": "Schezwan Sauce",
-                                                "id": "311320",
-                                                "inStock": 1,
-                                                "isEnabled": 1
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Fried Rice",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320026",
-                                      "name": "Veg Fried Rice",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 18000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320027",
-                                      "name": "Mushroom Tomato Fried Rice",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 18500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320028",
-                                      "name": "Veg Schezwan Fried Rice",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 18500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320029",
-                                      "name": "Veg Triple Fried Rice",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320030",
-                                      "name": "Egg Fried Rice",
-                                      "category": "Chinese",
-                                      "price": 19500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "EGG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320031",
-                                      "name": "Chicken Fried Rice",
-                                      "category": "Chinese",
-                                      "price": 21000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320032",
-                                      "name": "Chicken Schezwan Fried Rice",
-                                      "category": "Chinese",
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320033",
-                                      "name": "Chicken Triple Fried Rice",
-                                      "category": "Chinese",
-                                      "price": 27500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320034",
-                                      "name": "Mutton Fried Rice",
-                                      "category": "Chinese",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320035",
-                                      "name": "Prawns Fried Rice",
-                                      "category": "Chinese",
-                                      "price": 28000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320036",
-                                      "name": "Prawns Schezwan Fried Rice",
-                                      "category": "Chinese",
-                                      "price": 28500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320037",
-                                      "name": "Mixed Fried Rice",
-                                      "category": "Chinese",
-                                      "description": "Contains chicken, mutton & fish.",
-                                      "price": 26000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Noodles",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320038",
-                                      "name": "Veg Hakka Noodles",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 20000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320039",
-                                      "name": "Veg Schezwan Noodles",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 21000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320040",
-                                      "name": "Veg Chow mein",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 22000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320041",
-                                      "name": "Chicken Hakka Noodles",
-                                      "category": "Chinese",
-                                      "price": 22500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320042",
-                                      "name": "Chicken Schezwan Noodles",
-                                      "category": "Chinese",
-                                      "price": 23500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320043",
-                                      "name": "Mixed Hakka Noodles",
-                                      "category": "Chinese",
-                                      "description": "Contains chicken, mutton & fish.",
-                                      "price": 27000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320044",
-                                      "name": "Chicken Chow mein",
-                                      "category": "Chinese",
-                                      "price": 24000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Chop sueys",
-                              "itemCards": [
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320045",
-                                      "name": "Veg American Chop suey",
-                                      "category": "Chinese",
-                                      "isVeg": 1,
-                                      "price": 25000,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "VEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                },
-                                {
-                                  "card": {
-                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                    "info": {
-                                      "id": "3320046",
-                                      "name": "Chicken American Chop suey",
-                                      "category": "Chinese",
-                                      "price": 27500,
-                                      "variants": {
-                                        
-                                      },
-                                      "variantsV2": {
-                                        
-                                      },
-                                      "itemAttribute": {
-                                        "vegClassifier": "NONVEG"
-                                      },
-                                      "ribbon": {
-                                        
-                                      },
-                                      "type": "ITEM",
-                                      "itemBadge": {
-                                        
-                                      },
-                                      "badgesV2": {
-                                        
-                                      },
-                                      "ratings": {
-                                        "aggregatedRating": {
-                                          
-                                        }
-                                      }
-                                    },
-                                    "analytics": {
-                                      
-                                    },
-                                    "hideRestaurantDetails": true
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    {
-                      "card": {
-                        "card": {
-                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
-                          "title": "Desserts",
-                          "itemCards": [
-                            {
-                              "card": {
-                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                                "info": {
-                                  "id": "3320047",
-                                  "name": "Malai Kulfi",
-                                  "category": "Desserts",
-                                  "isVeg": 1,
-                                  "price": 9000,
-                                  "variants": {
-                                    
-                                  },
-                                  "variantsV2": {
-                                    
-                                  },
-                                  "itemAttribute": {
-                                    "vegClassifier": "VEG"
-                                  },
-                                  "ribbon": {
-                                    
-                                  },
-                                  "type": "ITEM",
-                                  "itemBadge": {
-                                    
-                                  },
-                                  "badgesV2": {
-                                    
-                                  },
-                                  "ratings": {
-                                    "aggregatedRating": {
-                                      
-                                    }
-                                  }
-                                },
-                                "analytics": {
-                                  
-                                },
-                                "hideRestaurantDetails": true
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    {
-                      "card": {
-                        "card": {
-                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
-                          "name": "Bhagyashree Executive",
-                          "area": "Magarpatta",
-                          "completeAddress": "169/1, Near Amanora Township,Tupe Nagar,Hadapsar,Pune"
-                        }
-                      }
-                    }
-                  ]
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.seo.widgets.v1.ShowMoreButton",
+                "message": "Show More",
+                "id": "show_more_button"
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.seo.widgets.v1.BrandsContent",
+                "title": "Best Places to Eat Across Cities",
+                "brands": [
+                  {
+                    "text": "Best Restaurants in Bangalore",
+                    "link": "https://www.swiggy.com/city/bangalore/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Pune",
+                    "link": "https://www.swiggy.com/city/pune/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Mumbai",
+                    "link": "https://www.swiggy.com/city/mumbai/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Delhi",
+                    "link": "https://www.swiggy.com/city/delhi/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Hyderabad",
+                    "link": "https://www.swiggy.com/city/hyderabad/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Kolkata",
+                    "link": "https://www.swiggy.com/city/kolkata/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Chennai",
+                    "link": "https://www.swiggy.com/city/chennai/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Chandigarh",
+                    "link": "https://www.swiggy.com/city/chandigarh/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Ahmedabad",
+                    "link": "https://www.swiggy.com/city/ahmedabad/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Jaipur",
+                    "link": "https://www.swiggy.com/city/jaipur/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Nagpur",
+                    "link": "https://www.swiggy.com/city/nagpur/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Bhubaneswar",
+                    "link": "https://www.swiggy.com/city/bhubaneswar/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Kochi",
+                    "link": "https://www.swiggy.com/city/kochi/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Surat",
+                    "link": "https://www.swiggy.com/city/surat/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Dehradun",
+                    "link": "https://www.swiggy.com/city/dehradun/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Ludhiana",
+                    "link": "https://www.swiggy.com/city/ludhiana/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Patna",
+                    "link": "https://www.swiggy.com/city/patna/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Mangaluru",
+                    "link": "https://www.swiggy.com/city/mangaluru/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Bhopal",
+                    "link": "https://www.swiggy.com/city/bhopal/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Gurgaon",
+                    "link": "https://www.swiggy.com/city/gurgaon/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Coimbatore",
+                    "link": "https://www.swiggy.com/city/coimbatore/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Agra",
+                    "link": "https://www.swiggy.com/city/agra/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Noida",
+                    "link": "https://www.swiggy.com/city/noida/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Vijayawada",
+                    "link": "https://www.swiggy.com/city/vijayawada/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Guwahati",
+                    "link": "https://www.swiggy.com/city/guwahati/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Mysore",
+                    "link": "https://www.swiggy.com/city/mysore/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Pondicherry",
+                    "link": "https://www.swiggy.com/city/pondicherry/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Thiruvananthapuram",
+                    "link": "https://www.swiggy.com/city/thiruvananthapuram/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Ranchi",
+                    "link": "https://www.swiggy.com/city/ranchi/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Vizag",
+                    "link": "https://www.swiggy.com/city/vizag/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Udaipur",
+                    "link": "https://www.swiggy.com/city/udaipur/best-restaurants"
+                  },
+                  {
+                    "text": "Best Restaurants in Vadodara",
+                    "link": "https://www.swiggy.com/city/vadodara/best-restaurants"
+                  }
+                ],
+                "id": "restaurant_near_me_links"
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.seo.widgets.v1.BrandsContent",
+                "title": "Best Cuisines Near Me",
+                "brands": [
+                  {
+                    "text": "Chinese Restaurant Near Me",
+                    "link": "https://www.swiggy.com/chinese-restaurants-near-me"
+                  },
+                  {
+                    "text": "South Indian Restaurant Near Me",
+                    "link": "https://www.swiggy.com/south-indian-restaurants-near-me"
+                  },
+                  {
+                    "text": "Indian Restaurant Near Me",
+                    "link": "https://www.swiggy.com/indian-restaurants-near-me"
+                  },
+                  {
+                    "text": "Kerala Restaurant Near Me",
+                    "link": "https://www.swiggy.com/kerala-restaurants-near-me"
+                  },
+                  {
+                    "text": "Korean Restaurant Near Me",
+                    "link": "https://www.swiggy.com/korean-restaurants-near-me"
+                  },
+                  {
+                    "text": "North Indian Restaurant Near Me",
+                    "link": "https://www.swiggy.com/north-indian-restaurants-near-me"
+                  },
+                  {
+                    "text": "Seafood Restaurant Near Me",
+                    "link": "https://www.swiggy.com/seafood-restaurants-near-me"
+                  },
+                  {
+                    "text": "Bengali Restaurant Near Me",
+                    "link": "https://www.swiggy.com/bengali-restaurants-near-me"
+                  },
+                  {
+                    "text": "Punjabi Restaurant Near Me",
+                    "link": "https://www.swiggy.com/punjabi-restaurants-near-me"
+                  },
+                  {
+                    "text": "Italian Restaurant Near Me",
+                    "link": "https://www.swiggy.com/italian-restaurants-near-me"
+                  },
+                  {
+                    "text": "Andhra Restaurant Near Me",
+                    "link": "https://www.swiggy.com/andhra-restaurants-near-me"
+                  },
+                  {
+                    "text": "Biryani Restaurant Near Me",
+                    "link": "https://www.swiggy.com/biryani-restaurants-near-me"
+                  },
+                  {
+                    "text": "Japanese Restaurant Near Me",
+                    "link": "https://www.swiggy.com/japanese-restaurants-near-me"
+                  },
+                  {
+                    "text": "Arabian Restaurant Near Me",
+                    "link": "https://www.swiggy.com/arabian-restaurants-near-me"
+                  },
+                  {
+                    "text": "Fast Food Restaurant Near Me",
+                    "link": "https://www.swiggy.com/fast-food-restaurants-near-me"
+                  },
+                  {
+                    "text": "Jain Restaurant Near Me",
+                    "link": "https://www.swiggy.com/jain-restaurants-near-me"
+                  },
+                  {
+                    "text": "Gujarati Restaurant Near Me",
+                    "link": "https://www.swiggy.com/gujarati-restaurants-near-me"
+                  },
+                  {
+                    "text": "Thai Restaurant Near Me",
+                    "link": "https://www.swiggy.com/thai-restaurants-near-me"
+                  },
+                  {
+                    "text": "Pizzas Restaurant Near Me",
+                    "link": "https://www.swiggy.com/pizzas-restaurants-near-me"
+                  },
+                  {
+                    "text": "Asian Restaurant Near Me",
+                    "link": "https://www.swiggy.com/asian-restaurants-near-me"
+                  },
+                  {
+                    "text": "Cafe Restaurant Near Me",
+                    "link": "https://www.swiggy.com/cafe-restaurants-near-me"
+                  },
+                  {
+                    "text": "Continental Restaurant Near Me",
+                    "link": "https://www.swiggy.com/continental-restaurants-near-me"
+                  },
+                  {
+                    "text": "Mexican Restaurant Near Me",
+                    "link": "https://www.swiggy.com/mexican-restaurants-near-me"
+                  },
+                  {
+                    "text": "Mughlai Restaurant Near Me",
+                    "link": "https://www.swiggy.com/mughlai-restaurants-near-me"
+                  },
+                  {
+                    "text": "Sushi Restaurant Near Me",
+                    "link": "https://www.swiggy.com/sushi-restaurants-near-me"
+                  },
+                  {
+                    "text": "Mangalorean Restaurant Near Me",
+                    "link": "https://www.swiggy.com/mangalorean-restaurants-near-me"
+                  },
+                  {
+                    "text": "Tibetan Restaurant Near Me",
+                    "link": "https://www.swiggy.com/tibetan-restaurants-near-me"
+                  },
+                  {
+                    "text": "Barbecue Restaurant Near Me",
+                    "link": "https://www.swiggy.com/barbecue-restaurants-near-me"
+                  },
+                  {
+                    "text": "Maharashtrian Restaurant Near Me",
+                    "link": "https://www.swiggy.com/maharashtrian-restaurants-near-me"
+                  },
+                  {
+                    "text": "Nepalese Restaurant Near Me",
+                    "link": "https://www.swiggy.com/nepalese-restaurants-near-me"
+                  },
+                  {
+                    "text": "Rajasthani Restaurant Near Me",
+                    "link": "https://www.swiggy.com/rajasthani-restaurants-near-me"
+                  },
+                  {
+                    "text": "Turkish Restaurant Near Me",
+                    "link": "https://www.swiggy.com/turkish-restaurants-near-me"
+                  }
+                ],
+                "id": "restaurant_near_me_links"
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.seo.widgets.v1.BrandsContent",
+                "title": "Explore Every Restaurants Near Me",
+                "brands": [
+                  {
+                    "text": "Explore Restaurants Near Me",
+                    "link": "https://www.swiggy.com/restaurants-near-me"
+                  },
+                  {
+                    "text": "Explore Top Rated Restaurants Near Me",
+                    "link": "https://www.swiggy.com/best-restaurants-near-me"
+                  }
+                ],
+                "id": "restaurant_near_me_links"
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.seo.widgets.v1.AppInstallLinks",
+                "title": "For better experience,download the Swiggy app now",
+                "androidAppImage": "portal/m/play_store.png",
+                "androidAppLink": "https://play.google.com/store/apps/details?id=in.swiggy.android&referrer=utm_source%3Dswiggy%26utm_medium%3Dheader",
+                "iosAppImage": "portal/m/app_store.png",
+                "iosAppLink": "https://itunes.apple.com/in/app/id989540920?referrer=utm_source%3Dswiggy%26utm_medium%3Dhomepage",
+                "id": "app_install_links"
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.seo.widgets.v1.FooterContent",
+                "cities": [
+                  {
+                    "text": "Bangalore",
+                    "link": "https://www.swiggy.com/city/bangalore"
+                  },
+                  {
+                    "text": "Gurgaon",
+                    "link": "https://www.swiggy.com/city/gurgaon"
+                  },
+                  {
+                    "text": "Hyderabad",
+                    "link": "https://www.swiggy.com/city/hyderabad"
+                  },
+                  {
+                    "text": "Delhi",
+                    "link": "https://www.swiggy.com/city/delhi"
+                  },
+                  {
+                    "text": "Mumbai",
+                    "link": "https://www.swiggy.com/city/mumbai"
+                  },
+                  {
+                    "text": "Pune",
+                    "link": "https://www.swiggy.com/city/pune"
+                  },
+                  {
+                    "text": "Kolkata",
+                    "link": "https://www.swiggy.com/city/kolkata"
+                  },
+                  {
+                    "text": "Chennai",
+                    "link": "https://www.swiggy.com/city/chennai"
+                  },
+                  {
+                    "text": "Ahmedabad",
+                    "link": "https://www.swiggy.com/city/ahmedabad"
+                  },
+                  {
+                    "text": "Chandigarh",
+                    "link": "https://www.swiggy.com/city/chandigarh"
+                  },
+                  {
+                    "text": "Jaipur",
+                    "link": "https://www.swiggy.com/city/jaipur"
+                  },
+                  {
+                    "text": "Kochi",
+                    "link": "https://www.swiggy.com/city/kochi"
+                  },
+                  {
+                    "text": "Coimbatore",
+                    "link": "https://www.swiggy.com/city/coimbatore"
+                  },
+                  {
+                    "text": "Lucknow",
+                    "link": "https://www.swiggy.com/city/lucknow"
+                  },
+                  {
+                    "text": "Nagpur",
+                    "link": "https://www.swiggy.com/city/nagpur"
+                  },
+                  {
+                    "text": "Vadodara",
+                    "link": "https://www.swiggy.com/city/vadodara"
+                  },
+                  {
+                    "text": "Indore",
+                    "link": "https://www.swiggy.com/city/indore"
+                  },
+                  {
+                    "text": "Guwahati",
+                    "link": "https://www.swiggy.com/city/guwahati"
+                  },
+                  {
+                    "text": "Vizag",
+                    "link": "https://www.swiggy.com/city/vizag"
+                  },
+                  {
+                    "text": "Surat",
+                    "link": "https://www.swiggy.com/city/surat"
+                  },
+                  {
+                    "text": "Dehradun",
+                    "link": "https://www.swiggy.com/city/dehradun"
+                  },
+                  {
+                    "text": "Noida",
+                    "link": "https://www.swiggy.com/city/noida"
+                  },
+                  {
+                    "text": "Ludhiana",
+                    "link": "https://www.swiggy.com/city/ludhiana"
+                  },
+                  {
+                    "text": "Trichy",
+                    "link": "https://www.swiggy.com/city/trichy"
+                  },
+                  {
+                    "text": "Vijayawada",
+                    "link": "https://www.swiggy.com/city/vijayawada"
+                  },
+                  {
+                    "text": "Kanpur",
+                    "link": "https://www.swiggy.com/city/kanpur"
+                  },
+                  {
+                    "text": "Mysore",
+                    "link": "https://www.swiggy.com/city/mysore"
+                  },
+                  {
+                    "text": "Nashik",
+                    "link": "https://www.swiggy.com/city/nashik"
+                  },
+                  {
+                    "text": "Udaipur",
+                    "link": "https://www.swiggy.com/city/udaipur"
+                  },
+                  {
+                    "text": "Pondicherry",
+                    "link": "https://www.swiggy.com/city/pondicherry"
+                  },
+                  {
+                    "text": "Agra",
+                    "link": "https://www.swiggy.com/city/agra"
+                  },
+                  {
+                    "text": "Aurangabad",
+                    "link": "https://www.swiggy.com/city/aurangabad"
+                  },
+                  {
+                    "text": "Jalandhar",
+                    "link": "https://www.swiggy.com/city/jalandhar"
+                  },
+                  {
+                    "text": "Kota",
+                    "link": "https://www.swiggy.com/city/kota"
+                  },
+                  {
+                    "text": "Madurai",
+                    "link": "https://www.swiggy.com/city/madurai"
+                  },
+                  {
+                    "text": "Allahabad",
+                    "link": "https://www.swiggy.com/city/allahabad"
+                  },
+                  {
+                    "text": "Manipal",
+                    "link": "https://www.swiggy.com/city/manipal"
+                  },
+                  {
+                    "text": "Amritsar",
+                    "link": "https://www.swiggy.com/city/amritsar"
+                  },
+                  {
+                    "text": "Bareilly",
+                    "link": "https://www.swiggy.com/city/bareilly"
+                  },
+                  {
+                    "text": "Meerut",
+                    "link": "https://www.swiggy.com/city/meerut"
+                  },
+                  {
+                    "text": "Bhopal",
+                    "link": "https://www.swiggy.com/city/bhopal"
+                  },
+                  {
+                    "text": "Ooty",
+                    "link": "https://www.swiggy.com/city/ooty"
+                  },
+                  {
+                    "text": "Bhubaneswar",
+                    "link": "https://www.swiggy.com/city/bhubaneswar"
+                  },
+                  {
+                    "text": "Raipur",
+                    "link": "https://www.swiggy.com/city/raipur"
+                  },
+                  {
+                    "text": "Bikaner",
+                    "link": "https://www.swiggy.com/city/bikaner"
+                  },
+                  {
+                    "text": "Rajkot",
+                    "link": "https://www.swiggy.com/city/rajkot"
+                  },
+                  {
+                    "text": "Kozhikode",
+                    "link": "https://www.swiggy.com/city/kozhikode"
+                  },
+                  {
+                    "text": "Central Goa",
+                    "link": "https://www.swiggy.com/city/central-goa"
+                  },
+                  {
+                    "text": "Sirsa",
+                    "link": "https://www.swiggy.com/city/sirsa"
+                  },
+                  {
+                    "text": "Gwalior",
+                    "link": "https://www.swiggy.com/city/gwalior"
+                  },
+                  {
+                    "text": "Thrissur",
+                    "link": "https://www.swiggy.com/city/thrissur"
+                  },
+                  {
+                    "text": "Kharagpur",
+                    "link": "https://www.swiggy.com/city/kharagpur"
+                  },
+                  {
+                    "text": "Tirupati",
+                    "link": "https://www.swiggy.com/city/tirupati"
+                  },
+                  {
+                    "text": "Tirupur",
+                    "link": "https://www.swiggy.com/city/tirupur"
+                  },
+                  {
+                    "text": "Vellore",
+                    "link": "https://www.swiggy.com/city/vellore"
+                  },
+                  {
+                    "text": "Thiruvananthapuram",
+                    "link": "https://www.swiggy.com/city/thiruvananthapuram"
+                  },
+                  {
+                    "text": "Warangal",
+                    "link": "https://www.swiggy.com/city/warangal"
+                  },
+                  {
+                    "text": "Varanasi",
+                    "link": "https://www.swiggy.com/city/varanasi"
+                  },
+                  {
+                    "text": "Mangaluru",
+                    "link": "https://www.swiggy.com/city/mangaluru"
+                  },
+                  {
+                    "text": "Patna",
+                    "link": "https://www.swiggy.com/city/patna"
+                  },
+                  {
+                    "text": "Ranchi",
+                    "link": "https://www.swiggy.com/city/ranchi"
+                  },
+                  {
+                    "text": "Faridabad",
+                    "link": "https://www.swiggy.com/city/faridabad"
+                  },
+                  {
+                    "text": "Guntur",
+                    "link": "https://www.swiggy.com/city/guntur"
+                  },
+                  {
+                    "text": "Ujjain",
+                    "link": "https://www.swiggy.com/city/ujjain"
+                  },
+                  {
+                    "text": "Patiala",
+                    "link": "https://www.swiggy.com/city/patiala"
+                  },
+                  {
+                    "text": "Karnal",
+                    "link": "https://www.swiggy.com/city/karnal"
+                  },
+                  {
+                    "text": "Kakinada",
+                    "link": "https://www.swiggy.com/city/kakinada"
+                  },
+                  {
+                    "text": "Rajahmundry",
+                    "link": "https://www.swiggy.com/city/rajahmundry"
+                  },
+                  {
+                    "text": "Bilaspur",
+                    "link": "https://www.swiggy.com/city/bilaspur"
+                  },
+                  {
+                    "text": "Bhilai",
+                    "link": "https://www.swiggy.com/city/bhilai"
+                  },
+                  {
+                    "text": "Anand",
+                    "link": "https://www.swiggy.com/city/anand"
+                  },
+                  {
+                    "text": "Bhavnagar",
+                    "link": "https://www.swiggy.com/city/bhavnagar"
+                  },
+                  {
+                    "text": "Jammu",
+                    "link": "https://www.swiggy.com/city/jammu"
+                  },
+                  {
+                    "text": "Muktsar",
+                    "link": "https://www.swiggy.com/city/muktsar"
+                  },
+                  {
+                    "text": "Panipat",
+                    "link": "https://www.swiggy.com/city/panipat"
+                  },
+                  {
+                    "text": "Dhanbad",
+                    "link": "https://www.swiggy.com/city/dhanbad"
+                  },
+                  {
+                    "text": "Hubli",
+                    "link": "https://www.swiggy.com/city/hubli"
+                  },
+                  {
+                    "text": "Belgaum",
+                    "link": "https://www.swiggy.com/city/belgaum"
+                  },
+                  {
+                    "text": "Jabalpur",
+                    "link": "https://www.swiggy.com/city/jabalpur"
+                  },
+                  {
+                    "text": "Kolhapur",
+                    "link": "https://www.swiggy.com/city/kolhapur"
+                  },
+                  {
+                    "text": "Solapur",
+                    "link": "https://www.swiggy.com/city/solapur"
+                  },
+                  {
+                    "text": "Shillong",
+                    "link": "https://www.swiggy.com/city/shillong"
+                  },
+                  {
+                    "text": "Cuttack",
+                    "link": "https://www.swiggy.com/city/cuttack"
+                  },
+                  {
+                    "text": "Aligarh",
+                    "link": "https://www.swiggy.com/city/aligarh"
+                  },
+                  {
+                    "text": "Salem",
+                    "link": "https://www.swiggy.com/city/salem"
+                  },
+                  {
+                    "text": "Jodhpur",
+                    "link": "https://www.swiggy.com/city/jodhpur"
+                  },
+                  {
+                    "text": "Ajmer",
+                    "link": "https://www.swiggy.com/city/ajmer"
+                  },
+                  {
+                    "text": "Jhansi",
+                    "link": "https://www.swiggy.com/city/jhansi"
+                  },
+                  {
+                    "text": "Gorakhpur",
+                    "link": "https://www.swiggy.com/city/gorakhpur"
+                  },
+                  {
+                    "text": "Thanjavur",
+                    "link": "https://www.swiggy.com/city/thanjavur"
+                  },
+                  {
+                    "text": "Erode",
+                    "link": "https://www.swiggy.com/city/erode"
+                  },
+                  {
+                    "text": "Nellore",
+                    "link": "https://www.swiggy.com/city/nellore"
+                  },
+                  {
+                    "text": "Rourkela",
+                    "link": "https://www.swiggy.com/city/rourkela"
+                  },
+                  {
+                    "text": "Anantapur",
+                    "link": "https://www.swiggy.com/city/anantapur"
+                  },
+                  {
+                    "text": "Kurnool",
+                    "link": "https://www.swiggy.com/city/kurnool"
+                  },
+                  {
+                    "text": "Ahmednagar",
+                    "link": "https://www.swiggy.com/city/ahmednagar"
+                  },
+                  {
+                    "text": "Phagwara",
+                    "link": "https://www.swiggy.com/city/phagwara"
+                  },
+                  {
+                    "text": "Ambala",
+                    "link": "https://www.swiggy.com/city/ambala"
+                  },
+                  {
+                    "text": "Ballari",
+                    "link": "https://www.swiggy.com/city/ballari"
+                  },
+                  {
+                    "text": "Saharanpur",
+                    "link": "https://www.swiggy.com/city/saharanpur"
+                  },
+                  {
+                    "text": "Tirunelveli",
+                    "link": "https://www.swiggy.com/city/tirunelveli"
+                  },
+                  {
+                    "text": "Bathinda",
+                    "link": "https://www.swiggy.com/city/bathinda"
+                  },
+                  {
+                    "text": "Mathura",
+                    "link": "https://www.swiggy.com/city/mathura"
+                  },
+                  {
+                    "text": "Haridwar",
+                    "link": "https://www.swiggy.com/city/haridwar"
+                  },
+                  {
+                    "text": "Ratnagiri",
+                    "link": "https://www.swiggy.com/city/ratnagiri"
+                  },
+                  {
+                    "text": "Sangli",
+                    "link": "https://www.swiggy.com/city/sangli"
+                  },
+                  {
+                    "text": "Amravati",
+                    "link": "https://www.swiggy.com/city/amravati"
+                  },
+                  {
+                    "text": "Rishikesh",
+                    "link": "https://www.swiggy.com/city/rishikesh"
+                  },
+                  {
+                    "text": "Nagercoil",
+                    "link": "https://www.swiggy.com/city/nagercoil"
+                  },
+                  {
+                    "text": "KanyaKumari",
+                    "link": "https://www.swiggy.com/city/kanyakumari"
+                  },
+                  {
+                    "text": "Kadapa",
+                    "link": "https://www.swiggy.com/city/kadapa"
+                  },
+                  {
+                    "text": "Nizamabad",
+                    "link": "https://www.swiggy.com/city/nizamabad"
+                  },
+                  {
+                    "text": "Shivamogga",
+                    "link": "https://www.swiggy.com/city/shivamogga"
+                  },
+                  {
+                    "text": "Davanagere",
+                    "link": "https://www.swiggy.com/city/davanagere"
+                  },
+                  {
+                    "text": "Roorkee",
+                    "link": "https://www.swiggy.com/city/roorkee"
+                  },
+                  {
+                    "text": "Nanded",
+                    "link": "https://www.swiggy.com/city/nanded"
+                  },
+                  {
+                    "text": "Rewa",
+                    "link": "https://www.swiggy.com/city/rewa"
+                  },
+                  {
+                    "text": "Satna",
+                    "link": "https://www.swiggy.com/city/satna"
+                  },
+                  {
+                    "text": "Muzaffarpur",
+                    "link": "https://www.swiggy.com/city/muzaffarpur"
+                  },
+                  {
+                    "text": "Valsad",
+                    "link": "https://www.swiggy.com/city/valsad"
+                  },
+                  {
+                    "text": "Vapi",
+                    "link": "https://www.swiggy.com/city/vapi"
+                  },
+                  {
+                    "text": "Chhapra",
+                    "link": "https://www.swiggy.com/city/chhapra"
+                  },
+                  {
+                    "text": "Dharamshala",
+                    "link": "https://www.swiggy.com/city/dharamshala"
+                  },
+                  {
+                    "text": "Kollam",
+                    "link": "https://www.swiggy.com/city/kollam"
+                  },
+                  {
+                    "text": "Silchar",
+                    "link": "https://www.swiggy.com/city/silchar"
+                  },
+                  {
+                    "text": "Alappuzha",
+                    "link": "https://www.swiggy.com/city/alappuzha"
+                  },
+                  {
+                    "text": "Sonipat",
+                    "link": "https://www.swiggy.com/city/sonipat"
+                  },
+                  {
+                    "text": "Rohtak",
+                    "link": "https://www.swiggy.com/city/rohtak"
+                  },
+                  {
+                    "text": "Mehsana",
+                    "link": "https://www.swiggy.com/city/mehsana"
+                  },
+                  {
+                    "text": "Kullu",
+                    "link": "https://www.swiggy.com/city/kullu"
+                  },
+                  {
+                    "text": "Dhule",
+                    "link": "https://www.swiggy.com/city/dhule"
+                  },
+                  {
+                    "text": "Dharwad",
+                    "link": "https://www.swiggy.com/city/dharwad"
+                  },
+                  {
+                    "text": "Latur",
+                    "link": "https://www.swiggy.com/city/latur"
+                  },
+                  {
+                    "text": "Vizianagaram",
+                    "link": "https://www.swiggy.com/city/vizianagaram"
+                  },
+                  {
+                    "text": "Khammam",
+                    "link": "https://www.swiggy.com/city/khammam"
+                  },
+                  {
+                    "text": "Hampi",
+                    "link": "https://www.swiggy.com/city/hampi"
+                  },
+                  {
+                    "text": "Nainital",
+                    "link": "https://www.swiggy.com/city/nainital"
+                  },
+                  {
+                    "text": "Akola",
+                    "link": "https://www.swiggy.com/city/akola"
+                  },
+                  {
+                    "text": "Kalaburagi",
+                    "link": "https://www.swiggy.com/city/kalaburagi"
+                  },
+                  {
+                    "text": "Gaya",
+                    "link": "https://www.swiggy.com/city/gaya"
+                  },
+                  {
+                    "text": "Muzaffarnagar",
+                    "link": "https://www.swiggy.com/city/muzaffarnagar"
+                  },
+                  {
+                    "text": "Dewas",
+                    "link": "https://www.swiggy.com/city/dewas"
+                  },
+                  {
+                    "text": "Korba",
+                    "link": "https://www.swiggy.com/city/korba"
+                  },
+                  {
+                    "text": "Mussoorie",
+                    "link": "https://www.swiggy.com/city/mussoorie"
+                  },
+                  {
+                    "text": "Jalgaon",
+                    "link": "https://www.swiggy.com/city/jalgaon"
+                  },
+                  {
+                    "text": "Yamuna Nagar",
+                    "link": "https://www.swiggy.com/city/yamuna-nagar"
+                  },
+                  {
+                    "text": "Bhagalpur",
+                    "link": "https://www.swiggy.com/city/bhagalpur"
+                  },
+                  {
+                    "text": "Hapur",
+                    "link": "https://www.swiggy.com/city/hapur"
+                  },
+                  {
+                    "text": "Morena",
+                    "link": "https://www.swiggy.com/city/morena"
+                  },
+                  {
+                    "text": "Hassan",
+                    "link": "https://www.swiggy.com/city/hassan"
+                  },
+                  {
+                    "text": "Hisar",
+                    "link": "https://www.swiggy.com/city/hisar"
+                  },
+                  {
+                    "text": "Godhra",
+                    "link": "https://www.swiggy.com/city/godhra"
+                  },
+                  {
+                    "text": "Kolar ",
+                    "link": "https://www.swiggy.com/city/kolar"
+                  },
+                  {
+                    "text": "Rampur",
+                    "link": "https://www.swiggy.com/city/rampur"
+                  },
+                  {
+                    "text": "Sitapur",
+                    "link": "https://www.swiggy.com/city/sitapur"
+                  },
+                  {
+                    "text": "Etawah",
+                    "link": "https://www.swiggy.com/city/etawah"
+                  },
+                  {
+                    "text": "Porbandar",
+                    "link": "https://www.swiggy.com/city/porbandar"
+                  },
+                  {
+                    "text": "Nadiad",
+                    "link": "https://www.swiggy.com/city/nadiad"
+                  },
+                  {
+                    "text": "Sagar",
+                    "link": "https://www.swiggy.com/city/sagar"
+                  },
+                  {
+                    "text": "Morbi",
+                    "link": "https://www.swiggy.com/city/morbi"
+                  },
+                  {
+                    "text": "Chhindwara",
+                    "link": "https://www.swiggy.com/city/chhindwara"
+                  },
+                  {
+                    "text": "Tumakuru",
+                    "link": "https://www.swiggy.com/city/tumakuru"
+                  },
+                  {
+                    "text": "Singrauli",
+                    "link": "https://www.swiggy.com/city/singrauli"
+                  },
+                  {
+                    "text": "Thoothukudi",
+                    "link": "https://www.swiggy.com/city/thoothukudi"
+                  },
+                  {
+                    "text": "Katni",
+                    "link": "https://www.swiggy.com/city/katni"
+                  },
+                  {
+                    "text": "Khandwa",
+                    "link": "https://www.swiggy.com/city/khandwa"
+                  },
+                  {
+                    "text": "Eluru",
+                    "link": "https://www.swiggy.com/city/eluru"
+                  },
+                  {
+                    "text": "Malappuram",
+                    "link": "https://www.swiggy.com/city/malappuram"
+                  },
+                  {
+                    "text": "Dibrugarh",
+                    "link": "https://www.swiggy.com/city/dibrugarh"
+                  },
+                  {
+                    "text": "Deoghar",
+                    "link": "https://www.swiggy.com/city/deoghar"
+                  },
+                  {
+                    "text": "Khanna",
+                    "link": "https://www.swiggy.com/city/khanna"
+                  },
+                  {
+                    "text": "Bidar",
+                    "link": "https://www.swiggy.com/city/bidar"
+                  },
+                  {
+                    "text": "Madikeri",
+                    "link": "https://www.swiggy.com/city/madikeri"
+                  },
+                  {
+                    "text": "Haldwani",
+                    "link": "https://www.swiggy.com/city/haldwani"
+                  },
+                  {
+                    "text": "Farrukhabad",
+                    "link": "https://www.swiggy.com/city/farrukhabad"
+                  },
+                  {
+                    "text": "Malegaon",
+                    "link": "https://www.swiggy.com/city/malegaon"
+                  },
+                  {
+                    "text": "Dindigul",
+                    "link": "https://www.swiggy.com/city/dindigul"
+                  },
+                  {
+                    "text": "Shahjahanpur",
+                    "link": "https://www.swiggy.com/city/shahjahanpur"
+                  },
+                  {
+                    "text": "Beed",
+                    "link": "https://www.swiggy.com/city/beed"
+                  },
+                  {
+                    "text": "Junagadh",
+                    "link": "https://www.swiggy.com/city/junagadh"
+                  },
+                  {
+                    "text": "Asansol",
+                    "link": "https://www.swiggy.com/city/asansol"
+                  },
+                  {
+                    "text": "Beawar",
+                    "link": "https://www.swiggy.com/city/beawar"
+                  },
+                  {
+                    "text": "Kishangarh",
+                    "link": "https://www.swiggy.com/city/kishangarh"
+                  },
+                  {
+                    "text": "Parbhani",
+                    "link": "https://www.swiggy.com/city/parbhani"
+                  },
+                  {
+                    "text": "Gondia",
+                    "link": "https://www.swiggy.com/city/gondia"
+                  },
+                  {
+                    "text": "Ichalkaranji",
+                    "link": "https://www.swiggy.com/city/ichalkaranji"
+                  },
+                  {
+                    "text": "Jalna",
+                    "link": "https://www.swiggy.com/city/jalna"
+                  },
+                  {
+                    "text": "Yavatmal",
+                    "link": "https://www.swiggy.com/city/yavatmal"
+                  },
+                  {
+                    "text": "Shivpuri",
+                    "link": "https://www.swiggy.com/city/shivpuri"
+                  },
+                  {
+                    "text": "Moga",
+                    "link": "https://www.swiggy.com/city/moga"
+                  },
+                  {
+                    "text": "Abohar",
+                    "link": "https://www.swiggy.com/city/abohar"
+                  },
+                  {
+                    "text": "Adoni",
+                    "link": "https://www.swiggy.com/city/adoni"
+                  },
+                  {
+                    "text": "Madanapalle",
+                    "link": "https://www.swiggy.com/city/madanapalle"
+                  },
+                  {
+                    "text": "Tiruvannamalai",
+                    "link": "https://www.swiggy.com/city/tiruvannamalai"
+                  },
+                  {
+                    "text": "Satara",
+                    "link": "https://www.swiggy.com/city/satara"
+                  },
+                  {
+                    "text": "Ambur",
+                    "link": "https://www.swiggy.com/city/ambur"
+                  },
+                  {
+                    "text": "Karimnagar",
+                    "link": "https://www.swiggy.com/city/karimnagar"
+                  },
+                  {
+                    "text": "Ratlam",
+                    "link": "https://www.swiggy.com/city/ratlam"
+                  },
+                  {
+                    "text": "Moradabad",
+                    "link": "https://www.swiggy.com/city/moradabad"
+                  },
+                  {
+                    "text": "Machilipatnam",
+                    "link": "https://www.swiggy.com/city/machilipatnam"
+                  },
+                  {
+                    "text": "Ongole",
+                    "link": "https://www.swiggy.com/city/ongole"
+                  },
+                  {
+                    "text": "Kottayam",
+                    "link": "https://www.swiggy.com/city/kottayam"
+                  },
+                  {
+                    "text": "Darbhanga",
+                    "link": "https://www.swiggy.com/city/darbhanga"
+                  },
+                  {
+                    "text": "Kurukshetra",
+                    "link": "https://www.swiggy.com/city/kurukshetra"
+                  },
+                  {
+                    "text": "Unnao",
+                    "link": "https://www.swiggy.com/city/unnao"
+                  },
+                  {
+                    "text": "Bulandshahr",
+                    "link": "https://www.swiggy.com/city/bulandshahr"
+                  },
+                  {
+                    "text": "Durgapur",
+                    "link": "https://www.swiggy.com/city/durgapur"
+                  },
+                  {
+                    "text": "Siliguri",
+                    "link": "https://www.swiggy.com/city/siliguri"
+                  },
+                  {
+                    "text": "Pali",
+                    "link": "https://www.swiggy.com/city/pali"
+                  },
+                  {
+                    "text": "Tadepalligudem",
+                    "link": "https://www.swiggy.com/city/tadepalligudem"
+                  },
+                  {
+                    "text": "Ramagundam",
+                    "link": "https://www.swiggy.com/city/ramagundam"
+                  },
+                  {
+                    "text": "Mahbubnagar",
+                    "link": "https://www.swiggy.com/city/mahbubnagar"
+                  },
+                  {
+                    "text": "Bhiwani",
+                    "link": "https://www.swiggy.com/city/bhiwani"
+                  },
+                  {
+                    "text": "Cuddalore",
+                    "link": "https://www.swiggy.com/city/cuddalore"
+                  },
+                  {
+                    "text": "Kaithal",
+                    "link": "https://www.swiggy.com/city/kaithal"
+                  },
+                  {
+                    "text": "Jagtial",
+                    "link": "https://www.swiggy.com/city/jagtial"
+                  },
+                  {
+                    "text": "Palakkad",
+                    "link": "https://www.swiggy.com/city/palakkad"
+                  },
+                  {
+                    "text": "Guna",
+                    "link": "https://www.swiggy.com/city/guna"
+                  },
+                  {
+                    "text": "Kumbakonam",
+                    "link": "https://www.swiggy.com/city/kumbakonam"
+                  },
+                  {
+                    "text": "Maunath Bhanjan",
+                    "link": "https://www.swiggy.com/city/maunath-bhanjan"
+                  },
+                  {
+                    "text": "Baripada",
+                    "link": "https://www.swiggy.com/city/baripada"
+                  },
+                  {
+                    "text": "Orai",
+                    "link": "https://www.swiggy.com/city/orai"
+                  },
+                  {
+                    "text": "Bhadrak",
+                    "link": "https://www.swiggy.com/city/bhadrak"
+                  },
+                  {
+                    "text": "Batala",
+                    "link": "https://www.swiggy.com/city/batala"
+                  },
+                  {
+                    "text": "Firozpur",
+                    "link": "https://www.swiggy.com/city/firozpur"
+                  },
+                  {
+                    "text": "Barnala",
+                    "link": "https://www.swiggy.com/city/barnala"
+                  },
+                  {
+                    "text": "Raigarh",
+                    "link": "https://www.swiggy.com/city/raigarh"
+                  },
+                  {
+                    "text": "Nagaon",
+                    "link": "https://www.swiggy.com/city/nagaon"
+                  },
+                  {
+                    "text": "Mainpuri",
+                    "link": "https://www.swiggy.com/city/mainpuri"
+                  },
+                  {
+                    "text": "Balurghat",
+                    "link": "https://www.swiggy.com/city/balurghat"
+                  },
+                  {
+                    "text": "Giridih",
+                    "link": "https://www.swiggy.com/city/giridih"
+                  },
+                  {
+                    "text": "Ghazipur",
+                    "link": "https://www.swiggy.com/city/ghazipur"
+                  },
+                  {
+                    "text": "Jagdalpur",
+                    "link": "https://www.swiggy.com/city/jagdalpur"
+                  },
+                  {
+                    "text": "Vidisha",
+                    "link": "https://www.swiggy.com/city/vidisha"
+                  },
+                  {
+                    "text": "Dimapur",
+                    "link": "https://www.swiggy.com/city/dimapur"
+                  },
+                  {
+                    "text": "Shikohabad",
+                    "link": "https://www.swiggy.com/city/shikohabad"
+                  },
+                  {
+                    "text": "Imphal",
+                    "link": "https://www.swiggy.com/city/imphal"
+                  },
+                  {
+                    "text": "Lakhimpur",
+                    "link": "https://www.swiggy.com/city/lakhimpur"
+                  },
+                  {
+                    "text": "Rudrapur",
+                    "link": "https://www.swiggy.com/city/rudrapur"
+                  },
+                  {
+                    "text": "Ambikapur",
+                    "link": "https://www.swiggy.com/city/ambikapur"
+                  },
+                  {
+                    "text": "Rae Bareli",
+                    "link": "https://www.swiggy.com/city/rae-bareli"
+                  },
+                  {
+                    "text": "Tinsukia",
+                    "link": "https://www.swiggy.com/city/tinsukia"
+                  },
+                  {
+                    "text": "Rajapalayam",
+                    "link": "https://www.swiggy.com/city/rajapalayam"
+                  },
+                  {
+                    "text": "Rajnandgaon",
+                    "link": "https://www.swiggy.com/city/rajnandgaon"
+                  },
+                  {
+                    "text": "Kashipur",
+                    "link": "https://www.swiggy.com/city/kashipur"
+                  },
+                  {
+                    "text": "Ranibennur",
+                    "link": "https://www.swiggy.com/city/ranibennur"
+                  },
+                  {
+                    "text": "Burhanpur",
+                    "link": "https://www.swiggy.com/city/burhanpur"
+                  },
+                  {
+                    "text": "Bhadravati",
+                    "link": "https://www.swiggy.com/city/bhadravati"
+                  },
+                  {
+                    "text": "Chittoor",
+                    "link": "https://www.swiggy.com/city/chittoor"
+                  },
+                  {
+                    "text": "Pudukkottai",
+                    "link": "https://www.swiggy.com/city/pudukkottai"
+                  },
+                  {
+                    "text": "Hardoi",
+                    "link": "https://www.swiggy.com/city/hardoi"
+                  },
+                  {
+                    "text": "Basti",
+                    "link": "https://www.swiggy.com/city/basti"
+                  },
+                  {
+                    "text": "Karaikkudi",
+                    "link": "https://www.swiggy.com/city/karaikkudi"
+                  },
+                  {
+                    "text": "Lalitpur",
+                    "link": "https://www.swiggy.com/city/lalitpur"
+                  },
+                  {
+                    "text": "Hospet",
+                    "link": "https://www.swiggy.com/city/hospet"
+                  },
+                  {
+                    "text": "Budaun",
+                    "link": "https://www.swiggy.com/city/budaun"
+                  },
+                  {
+                    "text": "Neemuch",
+                    "link": "https://www.swiggy.com/city/neemuch"
+                  },
+                  {
+                    "text": "Pilibhit",
+                    "link": "https://www.swiggy.com/city/pilibhit"
+                  },
+                  {
+                    "text": "Barshi",
+                    "link": "https://www.swiggy.com/city/barshi"
+                  },
+                  {
+                    "text": "Sri Ganganagar",
+                    "link": "https://www.swiggy.com/city/sri-ganganagar"
+                  },
+                  {
+                    "text": "Wardha",
+                    "link": "https://www.swiggy.com/city/wardha"
+                  },
+                  {
+                    "text": "Sehore",
+                    "link": "https://www.swiggy.com/city/sehore"
+                  },
+                  {
+                    "text": "Bhimavaram",
+                    "link": "https://www.swiggy.com/city/bhimavaram"
+                  },
+                  {
+                    "text": "Hanumangarh",
+                    "link": "https://www.swiggy.com/city/hanumangarh"
+                  },
+                  {
+                    "text": "Pathankot",
+                    "link": "https://www.swiggy.com/city/pathankot"
+                  },
+                  {
+                    "text": "Puri",
+                    "link": "https://www.swiggy.com/city/puri"
+                  },
+                  {
+                    "text": "Fatehpur",
+                    "link": "https://www.swiggy.com/city/fatehpur"
+                  },
+                  {
+                    "text": "Surendranagar Dudhrej",
+                    "link": "https://www.swiggy.com/city/surendranagar-dudhrej"
+                  },
+                  {
+                    "text": "Jamnagar",
+                    "link": "https://www.swiggy.com/city/jamnagar"
+                  },
+                  {
+                    "text": "Bhuj",
+                    "link": "https://www.swiggy.com/city/bhuj"
+                  },
+                  {
+                    "text": "Gandhidham",
+                    "link": "https://www.swiggy.com/city/gandhidham"
+                  },
+                  {
+                    "text": "Bharuch",
+                    "link": "https://www.swiggy.com/city/bharuch"
+                  },
+                  {
+                    "text": "Navsari",
+                    "link": "https://www.swiggy.com/city/navsari"
+                  },
+                  {
+                    "text": "Amreli",
+                    "link": "https://www.swiggy.com/city/amreli"
+                  },
+                  {
+                    "text": "Palanpur",
+                    "link": "https://www.swiggy.com/city/palanpur"
+                  },
+                  {
+                    "text": "Bhilwara",
+                    "link": "https://www.swiggy.com/city/bhilwara"
+                  },
+                  {
+                    "text": "Suratgarh",
+                    "link": "https://www.swiggy.com/city/suratgarh"
+                  },
+                  {
+                    "text": "Sikar",
+                    "link": "https://www.swiggy.com/city/sikar"
+                  },
+                  {
+                    "text": "Churu",
+                    "link": "https://www.swiggy.com/city/churu"
+                  },
+                  {
+                    "text": "Alwar",
+                    "link": "https://www.swiggy.com/city/alwar"
+                  },
+                  {
+                    "text": "Bhiwadi",
+                    "link": "https://www.swiggy.com/city/bhiwadi"
+                  },
+                  {
+                    "text": "Bharatpur",
+                    "link": "https://www.swiggy.com/city/bharatpur"
+                  },
+                  {
+                    "text": "Mount Abu",
+                    "link": "https://www.swiggy.com/city/mount-abu"
+                  },
+                  {
+                    "text": "Bundi",
+                    "link": "https://www.swiggy.com/city/bundi"
+                  },
+                  {
+                    "text": "Sawai Madhopur",
+                    "link": "https://www.swiggy.com/city/sawai-madhopur"
+                  },
+                  {
+                    "text": "Purulia",
+                    "link": "https://www.swiggy.com/city/purulia"
+                  },
+                  {
+                    "text": "Bardhaman",
+                    "link": "https://www.swiggy.com/city/bardhaman"
+                  },
+                  {
+                    "text": "Raniganj",
+                    "link": "https://www.swiggy.com/city/raniganj"
+                  },
+                  {
+                    "text": "Darjeeling",
+                    "link": "https://www.swiggy.com/city/darjeeling"
+                  },
+                  {
+                    "text": "Jalpaiguri",
+                    "link": "https://www.swiggy.com/city/jalpaiguri"
+                  },
+                  {
+                    "text": "Chittorgarh",
+                    "link": "https://www.swiggy.com/city/chittorgarh"
+                  },
+                  {
+                    "text": "Dholpur",
+                    "link": "https://www.swiggy.com/city/dholpur"
+                  },
+                  {
+                    "text": "Uluberia",
+                    "link": "https://www.swiggy.com/city/uluberia"
+                  },
+                  {
+                    "text": "Nabadwip",
+                    "link": "https://www.swiggy.com/city/nabadwip"
+                  },
+                  {
+                    "text": "Bongaon",
+                    "link": "https://www.swiggy.com/city/bongaon"
+                  },
+                  {
+                    "text": "Kanchrapara",
+                    "link": "https://www.swiggy.com/city/kanchrapara"
+                  },
+                  {
+                    "text": "Habra",
+                    "link": "https://www.swiggy.com/city/habra"
+                  },
+                  {
+                    "text": "Firozabad",
+                    "link": "https://www.swiggy.com/city/firozabad"
+                  },
+                  {
+                    "text": "Nalgonda",
+                    "link": "https://www.swiggy.com/city/nalgonda"
+                  },
+                  {
+                    "text": "Chandrapur",
+                    "link": "https://www.swiggy.com/city/chandrapur"
+                  },
+                  {
+                    "text": "Bijapur",
+                    "link": "https://www.swiggy.com/city/bijapur"
+                  },
+                  {
+                    "text": "Bhusawal",
+                    "link": "https://www.swiggy.com/city/bhusawal"
+                  },
+                  {
+                    "text": "Raichur",
+                    "link": "https://www.swiggy.com/city/raichur"
+                  },
+                  {
+                    "text": "Bahraich",
+                    "link": "https://www.swiggy.com/city/bahraich"
+                  },
+                  {
+                    "text": "Azamgarh",
+                    "link": "https://www.swiggy.com/city/azamgarh"
+                  },
+                  {
+                    "text": "Bahadurgarh",
+                    "link": "https://www.swiggy.com/city/bahadurgarh"
+                  },
+                  {
+                    "text": "Jind",
+                    "link": "https://www.swiggy.com/city/jind"
+                  },
+                  {
+                    "text": "Rewari",
+                    "link": "https://www.swiggy.com/city/rewari"
+                  },
+                  {
+                    "text": "Palwal",
+                    "link": "https://www.swiggy.com/city/palwal"
+                  },
+                  {
+                    "text": "Hathras",
+                    "link": "https://www.swiggy.com/city/hathras"
+                  },
+                  {
+                    "text": "Sambalpur",
+                    "link": "https://www.swiggy.com/city/sambalpur"
+                  },
+                  {
+                    "text": "Banda",
+                    "link": "https://www.swiggy.com/city/banda"
+                  },
+                  {
+                    "text": "Hoshiarpur",
+                    "link": "https://www.swiggy.com/city/hoshiarpur"
+                  },
+                  {
+                    "text": "Faridkot",
+                    "link": "https://www.swiggy.com/city/faridkot"
+                  },
+                  {
+                    "text": "Mandsaur",
+                    "link": "https://www.swiggy.com/city/mandsaur"
+                  },
+                  {
+                    "text": "Suryapet",
+                    "link": "https://www.swiggy.com/city/suryapet"
+                  },
+                  {
+                    "text": "Adilabad",
+                    "link": "https://www.swiggy.com/city/adilabad"
+                  },
+                  {
+                    "text": "Narasaraopet",
+                    "link": "https://www.swiggy.com/city/narasaraopet"
+                  },
+                  {
+                    "text": "Faizabad",
+                    "link": "https://www.swiggy.com/city/faizabad"
+                  },
+                  {
+                    "text": "Tadpatri",
+                    "link": "https://www.swiggy.com/city/tadpatri"
+                  },
+                  {
+                    "text": "Gonda",
+                    "link": "https://www.swiggy.com/city/gonda"
+                  },
+                  {
+                    "text": "Mughalsarai",
+                    "link": "https://www.swiggy.com/city/mughalsarai"
+                  },
+                  {
+                    "text": "Medinipur",
+                    "link": "https://www.swiggy.com/city/medinipur"
+                  },
+                  {
+                    "text": "Nagda",
+                    "link": "https://www.swiggy.com/city/nagda"
+                  },
+                  {
+                    "text": "Raiganj",
+                    "link": "https://www.swiggy.com/city/raiganj"
+                  },
+                  {
+                    "text": "Deoria City",
+                    "link": "https://www.swiggy.com/city/deoria-city"
+                  },
+                  {
+                    "text": "Sultanpur",
+                    "link": "https://www.swiggy.com/city/sultanpur"
+                  },
+                  {
+                    "text": "Shamli",
+                    "link": "https://www.swiggy.com/city/shamli"
+                  },
+                  {
+                    "text": "Krishnanagar",
+                    "link": "https://www.swiggy.com/city/krishnanagar"
+                  },
+                  {
+                    "text": "Ballia",
+                    "link": "https://www.swiggy.com/city/ballia"
+                  },
+                  {
+                    "text": "Guntakal",
+                    "link": "https://www.swiggy.com/city/guntakal"
+                  },
+                  {
+                    "text": "Miryalaguda",
+                    "link": "https://www.swiggy.com/city/miryalaguda"
+                  },
+                  {
+                    "text": "Etah",
+                    "link": "https://www.swiggy.com/city/etah"
+                  },
+                  {
+                    "text": "Berhampore",
+                    "link": "https://www.swiggy.com/city/berhampore"
+                  },
+                  {
+                    "text": "Gudivada",
+                    "link": "https://www.swiggy.com/city/gudivada"
+                  },
+                  {
+                    "text": "Haldia",
+                    "link": "https://www.swiggy.com/city/haldia"
+                  },
+                  {
+                    "text": "Santipur",
+                    "link": "https://www.swiggy.com/city/santipur"
+                  },
+                  {
+                    "text": "Basirhat",
+                    "link": "https://www.swiggy.com/city/basirhat"
+                  },
+                  {
+                    "text": "Udgir",
+                    "link": "https://www.swiggy.com/city/udgir"
+                  },
+                  {
+                    "text": "Proddatur",
+                    "link": "https://www.swiggy.com/city/proddatur"
+                  },
+                  {
+                    "text": "Nagapattinam",
+                    "link": "https://www.swiggy.com/city/nagapattinam"
+                  },
+                  {
+                    "text": "Chikmagalur",
+                    "link": "https://www.swiggy.com/city/chikmagalur"
+                  },
+                  {
+                    "text": "Chandausi",
+                    "link": "https://www.swiggy.com/city/chandausi"
+                  },
+                  {
+                    "text": "Bhind",
+                    "link": "https://www.swiggy.com/city/bhind"
+                  },
+                  {
+                    "text": "Mandya",
+                    "link": "https://www.swiggy.com/city/mandya"
+                  },
+                  {
+                    "text": "Bagalkot",
+                    "link": "https://www.swiggy.com/city/bagalkot"
+                  },
+                  {
+                    "text": "Nandurbar",
+                    "link": "https://www.swiggy.com/city/nandurbar"
+                  },
+                  {
+                    "text": "Chitradurga",
+                    "link": "https://www.swiggy.com/city/chitradurga"
+                  },
+                  {
+                    "text": "Osmanabad",
+                    "link": "https://www.swiggy.com/city/osmanabad"
+                  },
+                  {
+                    "text": "Modinagar",
+                    "link": "https://www.swiggy.com/city/modinagar"
+                  },
+                  {
+                    "text": "Gadag-Betigeri",
+                    "link": "https://www.swiggy.com/city/gadag-betigeri"
+                  },
+                  {
+                    "text": "Hoshangabad",
+                    "link": "https://www.swiggy.com/city/hoshangabad"
+                  },
+                  {
+                    "text": "Jaunpur",
+                    "link": "https://www.swiggy.com/city/jaunpur"
+                  },
+                  {
+                    "text": "Port Blair",
+                    "link": "https://www.swiggy.com/city/port-blair"
+                  },
+                  {
+                    "text": "Jorhat",
+                    "link": "https://www.swiggy.com/city/jorhat"
+                  },
+                  {
+                    "text": "Nandyal",
+                    "link": "https://www.swiggy.com/city/nandyal"
+                  },
+                  {
+                    "text": "Biharsharif",
+                    "link": "https://www.swiggy.com/city/biharsharif"
+                  },
+                  {
+                    "text": "Buxar",
+                    "link": "https://www.swiggy.com/city/buxar"
+                  },
+                  {
+                    "text": "Siwan",
+                    "link": "https://www.swiggy.com/city/siwan"
+                  },
+                  {
+                    "text": "Dehri",
+                    "link": "https://www.swiggy.com/city/dehri"
+                  },
+                  {
+                    "text": "Bettiah",
+                    "link": "https://www.swiggy.com/city/bettiah"
+                  },
+                  {
+                    "text": "Kishanganj",
+                    "link": "https://www.swiggy.com/city/kishanganj"
+                  },
+                  {
+                    "text": "Saharsa",
+                    "link": "https://www.swiggy.com/city/saharsa"
+                  },
+                  {
+                    "text": "Hajipur",
+                    "link": "https://www.swiggy.com/city/hajipur"
+                  },
+                  {
+                    "text": "Motihari",
+                    "link": "https://www.swiggy.com/city/motihari"
+                  },
+                  {
+                    "text": "Sasaram",
+                    "link": "https://www.swiggy.com/city/sasaram"
+                  },
+                  {
+                    "text": "Munger",
+                    "link": "https://www.swiggy.com/city/munger"
+                  },
+                  {
+                    "text": "Katihar",
+                    "link": "https://www.swiggy.com/city/katihar"
+                  },
+                  {
+                    "text": "Arrah",
+                    "link": "https://www.swiggy.com/city/arrah"
+                  },
+                  {
+                    "text": "Srikakulam",
+                    "link": "https://www.swiggy.com/city/srikakulam"
+                  },
+                  {
+                    "text": "Begusarai",
+                    "link": "https://www.swiggy.com/city/begusarai"
+                  },
+                  {
+                    "text": "Neyveli",
+                    "link": "https://www.swiggy.com/city/neyveli"
+                  },
+                  {
+                    "text": "Waidhan",
+                    "link": "https://www.swiggy.com/city/waidhan"
+                  },
+                  {
+                    "text": "Markapur",
+                    "link": "https://www.swiggy.com/city/markapur"
+                  },
+                  {
+                    "text": "Chikkaballapur",
+                    "link": "https://www.swiggy.com/city/chikkaballapur"
+                  },
+                  {
+                    "text": "Bhatkal",
+                    "link": "https://www.swiggy.com/city/bhatkal"
+                  },
+                  {
+                    "text": "Gokak",
+                    "link": "https://www.swiggy.com/city/gokak"
+                  },
+                  {
+                    "text": "Itarsi",
+                    "link": "https://www.swiggy.com/city/itarsi"
+                  },
+                  {
+                    "text": "Dhar",
+                    "link": "https://www.swiggy.com/city/dhar"
+                  },
+                  {
+                    "text": "Chalisgaon",
+                    "link": "https://www.swiggy.com/city/chalisgaon"
+                  },
+                  {
+                    "text": "Thiruvallur",
+                    "link": "https://www.swiggy.com/city/thiruvallur"
+                  },
+                  {
+                    "text": "Namakkal",
+                    "link": "https://www.swiggy.com/city/namakkal"
+                  },
+                  {
+                    "text": "Dharmapuri",
+                    "link": "https://www.swiggy.com/city/dharmapuri"
+                  },
+                  {
+                    "text": "Bhandara",
+                    "link": "https://www.swiggy.com/city/bhandara"
+                  },
+                  {
+                    "text": "Virudhunagar",
+                    "link": "https://www.swiggy.com/city/virudhunagar"
+                  },
+                  {
+                    "text": "Siddipet",
+                    "link": "https://www.swiggy.com/city/siddipet"
+                  },
+                  {
+                    "text": "Gadwal",
+                    "link": "https://www.swiggy.com/city/gadwal"
+                  },
+                  {
+                    "text": "Bodhan-Rural",
+                    "link": "https://www.swiggy.com/city/bodhan-rural"
+                  },
+                  {
+                    "text": "Kamareddy",
+                    "link": "https://www.swiggy.com/city/kamareddy"
+                  },
+                  {
+                    "text": "Jhunjhunu",
+                    "link": "https://www.swiggy.com/city/jhunjhunu"
+                  },
+                  {
+                    "text": "Kapurthala",
+                    "link": "https://www.swiggy.com/city/kapurthala"
+                  },
+                  {
+                    "text": "Sangrur",
+                    "link": "https://www.swiggy.com/city/sangrur"
+                  },
+                  {
+                    "text": "Gurdaspur",
+                    "link": "https://www.swiggy.com/city/gurdaspur"
+                  },
+                  {
+                    "text": "Ramgarh",
+                    "link": "https://www.swiggy.com/city/ramgarh"
+                  },
+                  {
+                    "text": "Bantwal",
+                    "link": "https://www.swiggy.com/city/bantwal"
+                  },
+                  {
+                    "text": "Doddaballapura",
+                    "link": "https://www.swiggy.com/city/doddaballapura"
+                  },
+                  {
+                    "text": "Buldana",
+                    "link": "https://www.swiggy.com/city/buldana"
+                  },
+                  {
+                    "text": "Karad",
+                    "link": "https://www.swiggy.com/city/karad"
+                  },
+                  {
+                    "text": "Krishnagiri",
+                    "link": "https://www.swiggy.com/city/krishnagiri"
+                  },
+                  {
+                    "text": "Tiptur",
+                    "link": "https://www.swiggy.com/city/tiptur"
+                  },
+                  {
+                    "text": "Bhadrachalam",
+                    "link": "https://www.swiggy.com/city/bhadrachalam"
+                  },
+                  {
+                    "text": "Mancherial",
+                    "link": "https://www.swiggy.com/city/mancherial"
+                  },
+                  {
+                    "text": "Balrampur",
+                    "link": "https://www.swiggy.com/city/balrampur"
+                  },
+                  {
+                    "text": "Bharabanki",
+                    "link": "https://www.swiggy.com/city/bharabanki"
+                  },
+                  {
+                    "text": "Malout",
+                    "link": "https://www.swiggy.com/city/malout"
+                  },
+                  {
+                    "text": "Fatehgarh Sahib",
+                    "link": "https://www.swiggy.com/city/fatehgarh-sahib"
+                  },
+                  {
+                    "text": "Ropar",
+                    "link": "https://www.swiggy.com/city/ropar"
+                  },
+                  {
+                    "text": "Nangal",
+                    "link": "https://www.swiggy.com/city/nangal"
+                  },
+                  {
+                    "text": "Narnaul",
+                    "link": "https://www.swiggy.com/city/narnaul"
+                  },
+                  {
+                    "text": "Naraingarh",
+                    "link": "https://www.swiggy.com/city/naraingarh"
+                  },
+                  {
+                    "text": "Himmatnagar",
+                    "link": "https://www.swiggy.com/city/himmatnagar"
+                  },
+                  {
+                    "text": "Dausa",
+                    "link": "https://www.swiggy.com/city/dausa"
+                  },
+                  {
+                    "text": "Jahanabad",
+                    "link": "https://www.swiggy.com/city/jahanabad"
+                  },
+                  {
+                    "text": "Samastipur",
+                    "link": "https://www.swiggy.com/city/samastipur"
+                  },
+                  {
+                    "text": "Purnea",
+                    "link": "https://www.swiggy.com/city/purnea"
+                  },
+                  {
+                    "text": "Berhampur",
+                    "link": "https://www.swiggy.com/city/berhampur"
+                  },
+                  {
+                    "text": "Malda",
+                    "link": "https://www.swiggy.com/city/malda"
+                  },
+                  {
+                    "text": "Tuni",
+                    "link": "https://www.swiggy.com/city/tuni"
+                  },
+                  {
+                    "text": "Puttur",
+                    "link": "https://www.swiggy.com/city/puttur"
+                  },
+                  {
+                    "text": "Rayachoty",
+                    "link": "https://www.swiggy.com/city/rayachoty"
+                  },
+                  {
+                    "text": "Nirmal",
+                    "link": "https://www.swiggy.com/city/nirmal"
+                  },
+                  {
+                    "text": "Mirzapur",
+                    "link": "https://www.swiggy.com/city/mirzapur"
+                  },
+                  {
+                    "text": "Tanuku",
+                    "link": "https://www.swiggy.com/city/tanuku"
+                  },
+                  {
+                    "text": "Dahod",
+                    "link": "https://www.swiggy.com/city/dahod"
+                  },
+                  {
+                    "text": "Barmer",
+                    "link": "https://www.swiggy.com/city/barmer"
+                  },
+                  {
+                    "text": "Gangapur City",
+                    "link": "https://www.swiggy.com/city/gangapur-city"
+                  },
+                  {
+                    "text": "Mandi Gobindgarh",
+                    "link": "https://www.swiggy.com/city/mandi-gobindgarh"
+                  },
+                  {
+                    "text": "Tarn Taran Sahib",
+                    "link": "https://www.swiggy.com/city/tarn-taran-sahib"
+                  },
+                  {
+                    "text": "Nakodar",
+                    "link": "https://www.swiggy.com/city/nakodar"
+                  },
+                  {
+                    "text": "Ankleshwar",
+                    "link": "https://www.swiggy.com/city/ankleshwar"
+                  },
+                  {
+                    "text": "Vyara",
+                    "link": "https://www.swiggy.com/city/vyara"
+                  },
+                  {
+                    "text": "Bardoli",
+                    "link": "https://www.swiggy.com/city/bardoli"
+                  },
+                  {
+                    "text": "Halol",
+                    "link": "https://www.swiggy.com/city/halol"
+                  },
+                  {
+                    "text": "Bijnor",
+                    "link": "https://www.swiggy.com/city/bijnor"
+                  },
+                  {
+                    "text": "Sangamner",
+                    "link": "https://www.swiggy.com/city/sangamner"
+                  },
+                  {
+                    "text": "Baramati",
+                    "link": "https://www.swiggy.com/city/baramati"
+                  },
+                  {
+                    "text": "Betul",
+                    "link": "https://www.swiggy.com/city/betul"
+                  },
+                  {
+                    "text": "Chhatarpur",
+                    "link": "https://www.swiggy.com/city/chhatarpur"
+                  },
+                  {
+                    "text": "Balaghat",
+                    "link": "https://www.swiggy.com/city/balaghat"
+                  },
+                  {
+                    "text": "Sivakasi",
+                    "link": "https://www.swiggy.com/city/sivakasi"
+                  },
+                  {
+                    "text": "Viluppuram",
+                    "link": "https://www.swiggy.com/city/viluppuram"
+                  },
+                  {
+                    "text": "Ramanathapuram",
+                    "link": "https://www.swiggy.com/city/ramanathapuram"
+                  },
+                  {
+                    "text": "Sirsi",
+                    "link": "https://www.swiggy.com/city/sirsi"
+                  },
+                  {
+                    "text": "Theni",
+                    "link": "https://www.swiggy.com/city/theni"
+                  },
+                  {
+                    "text": "Karur",
+                    "link": "https://www.swiggy.com/city/karur"
+                  },
+                  {
+                    "text": "Karwar",
+                    "link": "https://www.swiggy.com/city/karwar"
+                  },
+                  {
+                    "text": "Sindhanur",
+                    "link": "https://www.swiggy.com/city/sindhanur"
+                  },
+                  {
+                    "text": "Kannur",
+                    "link": "https://www.swiggy.com/city/kannur"
+                  },
+                  {
+                    "text": "Noida 1",
+                    "link": "https://www.swiggy.com/city/noida-1"
+                  },
+                  {
+                    "text": "Thiruvalla",
+                    "link": "https://www.swiggy.com/city/thiruvalla"
+                  },
+                  {
+                    "text": "Thodupuzha",
+                    "link": "https://www.swiggy.com/city/thodupuzha"
+                  },
+                  {
+                    "text": "Kadiri",
+                    "link": "https://www.swiggy.com/city/kadiri"
+                  },
+                  {
+                    "text": "Kavali",
+                    "link": "https://www.swiggy.com/city/kavali"
+                  },
+                  {
+                    "text": "Tezpur",
+                    "link": "https://www.swiggy.com/city/tezpur"
+                  },
+                  {
+                    "text": "Kayamkulam",
+                    "link": "https://www.swiggy.com/city/kayamkulam"
+                  },
+                  {
+                    "text": "Kottarakkara",
+                    "link": "https://www.swiggy.com/city/kottarakkara"
+                  },
+                  {
+                    "text": "Mandi Dabwali",
+                    "link": "https://www.swiggy.com/city/mandi-dabwali"
+                  },
+                  {
+                    "text": "Fatehabad",
+                    "link": "https://www.swiggy.com/city/fatehabad"
+                  },
+                  {
+                    "text": "Jagraon",
+                    "link": "https://www.swiggy.com/city/jagraon"
+                  },
+                  {
+                    "text": "Mansa",
+                    "link": "https://www.swiggy.com/city/mansa"
+                  },
+                  {
+                    "text": "Pinjore City",
+                    "link": "https://www.swiggy.com/city/pinjore-city"
+                  },
+                  {
+                    "text": "Fazilka",
+                    "link": "https://www.swiggy.com/city/fazilka"
+                  },
+                  {
+                    "text": "Baddi",
+                    "link": "https://www.swiggy.com/city/baddi"
+                  },
+                  {
+                    "text": "Solan",
+                    "link": "https://www.swiggy.com/city/solan"
+                  },
+                  {
+                    "text": "Daltonganj",
+                    "link": "https://www.swiggy.com/city/daltonganj"
+                  },
+                  {
+                    "text": "Balangir",
+                    "link": "https://www.swiggy.com/city/balangir"
+                  },
+                  {
+                    "text": "Kothagudem",
+                    "link": "https://www.swiggy.com/city/kothagudem"
+                  },
+                  {
+                    "text": "Hansi",
+                    "link": "https://www.swiggy.com/city/hansi"
+                  },
+                  {
+                    "text": "Aurangabad_Bihar",
+                    "link": "https://www.swiggy.com/city/aurangabadbihar"
+                  },
+                  {
+                    "text": "Gopalganj",
+                    "link": "https://www.swiggy.com/city/gopalganj"
+                  },
+                  {
+                    "text": "Jharsuguda",
+                    "link": "https://www.swiggy.com/city/jharsuguda"
+                  },
+                  {
+                    "text": "Tohana",
+                    "link": "https://www.swiggy.com/city/tohana"
+                  },
+                  {
+                    "text": "Jhalawar",
+                    "link": "https://www.swiggy.com/city/jhalawar"
+                  },
+                  {
+                    "text": "Sivasagar",
+                    "link": "https://www.swiggy.com/city/sivasagar"
+                  },
+                  {
+                    "text": "Bagdogra",
+                    "link": "https://www.swiggy.com/city/bagdogra"
+                  },
+                  {
+                    "text": "Kendrapada",
+                    "link": "https://www.swiggy.com/city/kendrapada"
+                  },
+                  {
+                    "text": "Mallapuram (Do not Use)",
+                    "link": "https://www.swiggy.com/city/mallapuram-do-not-use"
+                  },
+                  {
+                    "text": "Veraval",
+                    "link": "https://www.swiggy.com/city/veraval"
+                  },
+                  {
+                    "text": "Daman",
+                    "link": "https://www.swiggy.com/city/daman"
+                  },
+                  {
+                    "text": "Chiplun",
+                    "link": "https://www.swiggy.com/city/chiplun"
+                  },
+                  {
+                    "text": "Silvassa",
+                    "link": "https://www.swiggy.com/city/silvassa"
+                  },
+                  {
+                    "text": "Lonavla",
+                    "link": "https://www.swiggy.com/city/lonavla"
+                  },
+                  {
+                    "text": "Bongaigaon",
+                    "link": "https://www.swiggy.com/city/bongaigaon"
+                  },
+                  {
+                    "text": "Golaghat",
+                    "link": "https://www.swiggy.com/city/golaghat"
+                  },
+                  {
+                    "text": "Duliajan",
+                    "link": "https://www.swiggy.com/city/duliajan"
+                  },
+                  {
+                    "text": "Bolpur",
+                    "link": "https://www.swiggy.com/city/bolpur"
+                  },
+                  {
+                    "text": "Madhubani",
+                    "link": "https://www.swiggy.com/city/madhubani"
+                  },
+                  {
+                    "text": "Balasore",
+                    "link": "https://www.swiggy.com/city/balasore"
+                  },
+                  {
+                    "text": "Palampur",
+                    "link": "https://www.swiggy.com/city/palampur"
+                  },
+                  {
+                    "text": "Kotdwar",
+                    "link": "https://www.swiggy.com/city/kotdwar"
+                  },
+                  {
+                    "text": "Koppal",
+                    "link": "https://www.swiggy.com/city/koppal"
+                  },
+                  {
+                    "text": "Chikhli",
+                    "link": "https://www.swiggy.com/city/chikhli"
+                  },
+                  {
+                    "text": "Dahanu",
+                    "link": "https://www.swiggy.com/city/dahanu"
+                  },
+                  {
+                    "text": "Itanagar",
+                    "link": "https://www.swiggy.com/city/itanagar"
+                  },
+                  {
+                    "text": "Rangpo",
+                    "link": "https://www.swiggy.com/city/rangpo"
+                  },
+                  {
+                    "text": "Aizawl",
+                    "link": "https://www.swiggy.com/city/aizawl"
+                  },
+                  {
+                    "text": "Gangtok",
+                    "link": "https://www.swiggy.com/city/gangtok"
+                  },
+                  {
+                    "text": "Mayiladuthurai",
+                    "link": "https://www.swiggy.com/city/mayiladuthurai"
+                  },
+                  {
+                    "text": "Kannauj",
+                    "link": "https://www.swiggy.com/city/kannauj"
+                  },
+                  {
+                    "text": "Cooch Behar",
+                    "link": "https://www.swiggy.com/city/cooch-behar"
+                  },
+                  {
+                    "text": "Palani",
+                    "link": "https://www.swiggy.com/city/palani"
+                  },
+                  {
+                    "text": "Bilimora",
+                    "link": "https://www.swiggy.com/city/bilimora"
+                  },
+                  {
+                    "text": "Boisar",
+                    "link": "https://www.swiggy.com/city/boisar"
+                  },
+                  {
+                    "text": "Kohima",
+                    "link": "https://www.swiggy.com/city/kohima"
+                  },
+                  {
+                    "text": "Naharlagun",
+                    "link": "https://www.swiggy.com/city/naharlagun"
+                  },
+                  {
+                    "text": "Dumka",
+                    "link": "https://www.swiggy.com/city/dumka"
+                  },
+                  {
+                    "text": "Rajsamand",
+                    "link": "https://www.swiggy.com/city/rajsamand"
+                  },
+                  {
+                    "text": "Gauriganj",
+                    "link": "https://www.swiggy.com/city/gauriganj"
+                  },
+                  {
+                    "text": "Bodinayakanur",
+                    "link": "https://www.swiggy.com/city/bodinayakanur"
+                  },
+                  {
+                    "text": "Bhawanipatna",
+                    "link": "https://www.swiggy.com/city/bhawanipatna"
+                  },
+                  {
+                    "text": "Baran",
+                    "link": "https://www.swiggy.com/city/baran"
+                  },
+                  {
+                    "text": "Narsinghpur",
+                    "link": "https://www.swiggy.com/city/narsinghpur"
+                  },
+                  {
+                    "text": "Kovilpatti",
+                    "link": "https://www.swiggy.com/city/kovilpatti"
+                  },
+                  {
+                    "text": "Pusad",
+                    "link": "https://www.swiggy.com/city/pusad"
+                  },
+                  {
+                    "text": "Kendujhar",
+                    "link": "https://www.swiggy.com/city/kendujhar"
+                  },
+                  {
+                    "text": "Manali",
+                    "link": "https://www.swiggy.com/city/manali"
+                  },
+                  {
+                    "text": "Diu",
+                    "link": "https://www.swiggy.com/city/diu"
+                  },
+                  {
+                    "text": "Khamgaon",
+                    "link": "https://www.swiggy.com/city/khamgaon"
+                  },
+                  {
+                    "text": "Ramanagara",
+                    "link": "https://www.swiggy.com/city/ramanagara"
+                  },
+                  {
+                    "text": "Alipurduar",
+                    "link": "https://www.swiggy.com/city/alipurduar"
+                  },
+                  {
+                    "text": "Almora",
+                    "link": "https://www.swiggy.com/city/almora"
+                  },
+                  {
+                    "text": "Jhargram",
+                    "link": "https://www.swiggy.com/city/jhargram"
+                  },
+                  {
+                    "text": "Arambagh",
+                    "link": "https://www.swiggy.com/city/arambagh"
+                  },
+                  {
+                    "text": "Bhadohi",
+                    "link": "https://www.swiggy.com/city/bhadohi"
+                  },
+                  {
+                    "text": "Tenkasi",
+                    "link": "https://www.swiggy.com/city/tenkasi"
+                  },
+                  {
+                    "text": "Srivilliputhur",
+                    "link": "https://www.swiggy.com/city/srivilliputhur"
+                  },
+                  {
+                    "text": "Chidambaram",
+                    "link": "https://www.swiggy.com/city/chidambaram"
+                  },
+                  {
+                    "text": "Rajgarh",
+                    "link": "https://www.swiggy.com/city/rajgarh"
+                  },
+                  {
+                    "text": "Pratapgarh",
+                    "link": "https://www.swiggy.com/city/pratapgarh"
+                  },
+                  {
+                    "text": "Washim",
+                    "link": "https://www.swiggy.com/city/washim"
+                  },
+                  {
+                    "text": "Raghunathpur",
+                    "link": "https://www.swiggy.com/city/raghunathpur"
+                  },
+                  {
+                    "text": "Suri",
+                    "link": "https://www.swiggy.com/city/suri"
+                  },
+                  {
+                    "text": "Kadayanallur",
+                    "link": "https://www.swiggy.com/city/kadayanallur"
+                  },
+                  {
+                    "text": "Thiruvarur",
+                    "link": "https://www.swiggy.com/city/thiruvarur"
+                  },
+                  {
+                    "text": "Ranaghat-WB",
+                    "link": "https://www.swiggy.com/city/ranaghat-wb"
+                  },
+                  {
+                    "text": "Wayanad",
+                    "link": "https://www.swiggy.com/city/wayanad"
+                  },
+                  {
+                    "text": "Perambalur",
+                    "link": "https://www.swiggy.com/city/perambalur"
+                  },
+                  {
+                    "text": "Paramakudi",
+                    "link": "https://www.swiggy.com/city/paramakudi"
+                  },
+                  {
+                    "text": "Bela Pratapgarh",
+                    "link": "https://www.swiggy.com/city/bela-pratapgarh"
+                  },
+                  {
+                    "text": "Mahoba",
+                    "link": "https://www.swiggy.com/city/mahoba"
+                  },
+                  {
+                    "text": "Sitamarhi",
+                    "link": "https://www.swiggy.com/city/sitamarhi"
+                  },
+                  {
+                    "text": "Chakdaha",
+                    "link": "https://www.swiggy.com/city/chakdaha"
+                  },
+                  {
+                    "text": "Khalilabad",
+                    "link": "https://www.swiggy.com/city/khalilabad"
+                  },
+                  {
+                    "text": "Pattukkottai",
+                    "link": "https://www.swiggy.com/city/pattukkottai"
+                  },
+                  {
+                    "text": "Tindivanam",
+                    "link": "https://www.swiggy.com/city/tindivanam"
+                  },
+                  {
+                    "text": "Tiruttani",
+                    "link": "https://www.swiggy.com/city/tiruttani"
+                  },
+                  {
+                    "text": "Gangarampur",
+                    "link": "https://www.swiggy.com/city/gangarampur"
+                  },
+                  {
+                    "text": "Dharapuram",
+                    "link": "https://www.swiggy.com/city/dharapuram"
+                  },
+                  {
+                    "text": "Arakkonam",
+                    "link": "https://www.swiggy.com/city/arakkonam"
+                  },
+                  {
+                    "text": "Sirkali",
+                    "link": "https://www.swiggy.com/city/sirkali"
+                  },
+                  {
+                    "text": "Mettupalayam",
+                    "link": "https://www.swiggy.com/city/mettupalayam"
+                  },
+                  {
+                    "text": "Digboi",
+                    "link": "https://www.swiggy.com/city/digboi"
+                  },
+                  {
+                    "text": "Biswanath Chariali",
+                    "link": "https://www.swiggy.com/city/biswanath-chariali"
+                  },
+                  {
+                    "text": "Nalbari",
+                    "link": "https://www.swiggy.com/city/nalbari"
+                  },
+                  {
+                    "text": "Shirdi city",
+                    "link": "https://www.swiggy.com/city/shirdi-city"
+                  },
+                  {
+                    "text": "Mukerian",
+                    "link": "https://www.swiggy.com/city/mukerian"
+                  },
+                  {
+                    "text": "Hosur",
+                    "link": "https://www.swiggy.com/city/hosur"
+                  },
+                  {
+                    "text": "Palakollu",
+                    "link": "https://www.swiggy.com/city/palakollu"
+                  },
+                  {
+                    "text": "Ravulapalem",
+                    "link": "https://www.swiggy.com/city/ravulapalem"
+                  },
+                  {
+                    "text": "Barh",
+                    "link": "https://www.swiggy.com/city/barh"
+                  },
+                  {
+                    "text": "Palghar",
+                    "link": "https://www.swiggy.com/city/palghar"
+                  },
+                  {
+                    "text": "Kushalnagar",
+                    "link": "https://www.swiggy.com/city/kushalnagar"
+                  },
+                  {
+                    "text": "Dungarpur",
+                    "link": "https://www.swiggy.com/city/dungarpur"
+                  },
+                  {
+                    "text": "Chaibasa",
+                    "link": "https://www.swiggy.com/city/chaibasa"
+                  },
+                  {
+                    "text": "Haveri",
+                    "link": "https://www.swiggy.com/city/haveri"
+                  },
+                  {
+                    "text": "Karaikal",
+                    "link": "https://www.swiggy.com/city/karaikal"
+                  },
+                  {
+                    "text": "Jjajjar",
+                    "link": "https://www.swiggy.com/city/jjajjar"
+                  },
+                  {
+                    "text": "Kokrajhar",
+                    "link": "https://www.swiggy.com/city/kokrajhar"
+                  },
+                  {
+                    "text": "Rangia",
+                    "link": "https://www.swiggy.com/city/rangia"
+                  },
+                  {
+                    "text": "Hamirpur",
+                    "link": "https://www.swiggy.com/city/hamirpur"
+                  },
+                  {
+                    "text": "Una",
+                    "link": "https://www.swiggy.com/city/una"
+                  },
+                  {
+                    "text": "Sulthan Bathery",
+                    "link": "https://www.swiggy.com/city/sulthan-bathery"
+                  },
+                  {
+                    "text": "Rayagada",
+                    "link": "https://www.swiggy.com/city/rayagada"
+                  },
+                  {
+                    "text": "Paradeep",
+                    "link": "https://www.swiggy.com/city/paradeep"
+                  },
+                  {
+                    "text": "Mandapeta",
+                    "link": "https://www.swiggy.com/city/mandapeta"
+                  },
+                  {
+                    "text": "Jamui",
+                    "link": "https://www.swiggy.com/city/jamui"
+                  },
+                  {
+                    "text": "Pilkhuwa",
+                    "link": "https://www.swiggy.com/city/pilkhuwa"
+                  },
+                  {
+                    "text": "Parvathipuram",
+                    "link": "https://www.swiggy.com/city/parvathipuram"
+                  },
+                  {
+                    "text": "Ambajogai",
+                    "link": "https://www.swiggy.com/city/ambajogai"
+                  },
+                  {
+                    "text": "Araria",
+                    "link": "https://www.swiggy.com/city/araria"
+                  },
+                  {
+                    "text": "North Lakhimpur",
+                    "link": "https://www.swiggy.com/city/north-lakhimpur"
+                  },
+                  {
+                    "text": "Rajampet",
+                    "link": "https://www.swiggy.com/city/rajampet"
+                  },
+                  {
+                    "text": "Udumalaipettai",
+                    "link": "https://www.swiggy.com/city/udumalaipettai"
+                  },
+                  {
+                    "text": "Tirupattur",
+                    "link": "https://www.swiggy.com/city/tirupattur"
+                  },
+                  {
+                    "text": "Hojai",
+                    "link": "https://www.swiggy.com/city/hojai"
+                  },
+                  {
+                    "text": "Khagaria",
+                    "link": "https://www.swiggy.com/city/khagaria"
+                  },
+                  {
+                    "text": "Dasuya",
+                    "link": "https://www.swiggy.com/city/dasuya"
+                  },
+                  {
+                    "text": "Gudur",
+                    "link": "https://www.swiggy.com/city/gudur"
+                  },
+                  {
+                    "text": "Sullurpeta",
+                    "link": "https://www.swiggy.com/city/sullurpeta"
+                  },
+                  {
+                    "text": "Piler",
+                    "link": "https://www.swiggy.com/city/piler"
+                  },
+                  {
+                    "text": "SankaranKoil",
+                    "link": "https://www.swiggy.com/city/sankarankoil"
+                  },
+                  {
+                    "text": "Nabha",
+                    "link": "https://www.swiggy.com/city/nabha"
+                  },
+                  {
+                    "text": "LPU - Phagwara",
+                    "link": "https://www.swiggy.com/city/lpu-phagwara"
+                  },
+                  {
+                    "text": "Jangipur",
+                    "link": "https://www.swiggy.com/city/jangipur"
+                  },
+                  {
+                    "text": "Roha",
+                    "link": "https://www.swiggy.com/city/roha"
+                  }
+                ],
+                "id": "footer_content"
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.seo.widgets.v1.MetaContext",
+                "citySlug": "mangaluru",
+                "lat": "12.91870",
+                "lng": "74.85980",
+                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+                "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-c9430281-2cea-4a0b-8b42-9b190a674fc9\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\"}}",
+                "id": "meta_data",
+                "metaInfo": {
+                  "pageType": "FOOD_HOME_PAGE",
+                  "pageTitle": "Order Food Online from India's Best Food Delivery Service | Swiggy",
+                  "pageMetaDescription": "Order food online from restaurants and get it delivered. Serving in Bangalore, Hyderabad, Delhi and more. Order Pizzas, Biryanis, from Swiggy.",
+                  "pageKeywords": "Food delivery, Online food order, Online food dleivery"
+                },
+                "screenType": "filteredCollection",
+                "seoParams": {
+                  "apiName": "FoodHomePage",
+                  "seoUrl": "www.swiggy.com",
+                  "pageType": "FOOD_HOME_PAGE"
                 }
               }
             }
           }
         ],
         "firstOffsetRequest": true,
-        "isQCLink": false
+        "cacheExpiryTime": 240,
+        "nextFetch": 1
       },
       "tid": "8211c7e7-faa5-4905-918d-db93284316c1",
       "sid": "cva47421-43c5-4967-b765-7bef3f4044c5",
       "deviceId": "c49814f7-c69e-36dc-f914-8a2b8d1cf4a8",
-      "csrfToken": "aulEQWVOkCbm-kGZ9GrGa8oUnz43pnJcTh8rnQWk"
+      "csrfToken": "CTBYQI0kRkQC-G7vjKlHOIdoDL_8LhiSkj5_ZClo"
     })
 })
 app.post("/posts",(req,res)=>{
