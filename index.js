@@ -7071,6 +7071,227 @@ app.get("/restaurent",(req,res)=>{
       "csrfToken": "CTBYQI0kRkQC-G7vjKlHOIdoDL_8LhiSkj5_ZClo"
     })
 })
+
+
+app.get("/menu",(req,res)=>{
+  res.send({
+    "statusCode": 0,
+    "data": {
+      "statusMessage": "done successfully",
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "98668",
+                "name": "The Leela's kitchen",
+                "city": "Mangaluru",
+                "slugs": {
+                  "restaurant": "the-leelas-kitchen-kottara-lalbagh",
+                  "city": "mangaluru"
+                },
+                "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                "cloudinaryImageId": "p7crtx9ydfwkwqrbkbj8",
+                "locality": "Derebail",
+                "areaName": "Lalbagh",
+                "costForTwo": "25000",
+                "costForTwoMessage": "₹250 for two",
+                "cuisines": [
+                  "Chinese",
+                  "North Indian"
+                ],
+                "avgRating": 4.2,
+                "feeDetails": {
+                  "restaurantId": "98668",
+                  "fees": [
+                    {
+                      "name": "distance",
+                      "fee": 2000
+                    },
+                    {
+                      "name": "time",
+                      "fee": 1000
+                    },
+                    {
+                      "name": "special"
+                    }
+                  ],
+                  "totalFee": 3000,
+                  "title": "Delivery Charge",
+                  "amount": "3000"
+                },
+                "parentId": "15779",
+                "avgRatingString": "4.2",
+                "totalRatingsString": "10K+ ratings",
+                "sla": {
+                  "restaurantId": "98668",
+                  "serviceability": "NON_SERVICEABLE",
+                  "rainMode": "RAIN_MODE_NONE",
+                  "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextOpenTimeMessage": "Opens next at 5:30 am, Thursday",
+                  "nextOpenTime": "1970-01-01 05:30:00",
+                  "visibility": true,
+                  "restaurantClosedMeta": {
+                    
+                  }
+                },
+                "aggregatedDiscountInfo": {
+                  "visible": true
+                },
+                "badges": {
+                  
+                },
+                "slugString": "the-leelas-kitchen-kottara-lalbagh",
+                "labels": [
+                  {
+                    "title": "Timings",
+                    "message": "null"
+                  },
+                  {
+                    "title": "Address",
+                    "message": "Derebail Road, Konchady, Mangalore, Dakshina Kannada (Karnataka), - 575008"
+                  },
+                  {
+                    "title": "Cuisines",
+                    "message": "Chinese,North Indian"
+                  }
+                ],
+                "totalRatings": 10000,
+                "aggregatedDiscountInfoV2": {
+                  "visible": true
+                },
+                "type": "F",
+                "headerBanner": {
+                  "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/98668"
+                },
+                "ratingSlab": "RATING_SLAB_5",
+                "availabilityServiceabilityMessage": "Does not deliver to your location",
+                "orderabilityCommunication": {
+                  "title": {
+                    "text": "Wish you were"
+                  },
+                  "subTitle": {
+                    "text": "CLOSER!"
+                  },
+                  "message": {
+                    "text": "This location is outside the outlet's delivery area",
+                    "textColour": "negative"
+                  },
+                  "customIcon": {
+                    "bgGradientColorStart": "#F64C41",
+                    "bgGradientColorEnd": "#E53554"
+                  }
+                },
+                "cartOrderabilityNudgeBanner": {
+                  "parameters": {
+                    
+                  },
+                  "presentation": {
+                    
+                  }
+                },
+                "latLong": "12.90220348,74.84528035",
+                "backgroundImageOverlayInfo": {
+                  
+                }
+              },
+              "analytics": {
+                
+              }
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+              "sectionId": "POP_UP_CROUTON_MENU"
+            }
+          }
+        },
+        {
+          "groupedCard": {
+            "cardGroupMap": {
+              "REGULAR": {
+                "cards": [
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                        "badges": {
+                          
+                        },
+                        "vegOnlyDetails": {
+                          "imageId": "AutoVegOnly_qkjowj",
+                          "title": "Showing only vegetarian options.",
+                          "description": "Tap on the VEG ONLY button to turn off the setting"
+                        },
+                        "topRatedFilter": {
+                          
+                        },
+                        "kidsCategoryFilter": {
+                          "attributes": {
+                            "displayText": "Kids Favourites",
+                            "tooltip": {
+                              "enabled": true,
+                              "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                            }
+                          }
+                        },
+                        "vegFilter": {
+                          "attributes": {
+                            "displayText": "VEG"
+                          }
+                        },
+                        "nonvegFilter": {
+                          "attributes": {
+                            "displayText": "NONVEG"
+                          }
+                        }
+                      },
+                      "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                        "sectionId": "MENU_FILTER_TOGGLE"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                        "type": "FSSAI",
+                        "imageId": "fssai_final_edss9i",
+                        "text": [
+                          "License No. 21221204000117"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                        "name": "The Leela's kitchen",
+                        "area": "Lalbagh",
+                        "completeAddress": "Derebail Road, Konchady, Mangalore, Dakshina Kannada (Karnataka), - 575008"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "firstOffsetRequest": true,
+      "isQCLink": false
+    },
+    "tid": "8211c7e7-faa5-4905-918d-db93284316c1",
+    "sid": "cva47421-43c5-4967-b765-7bef3f4044c5",
+    "deviceId": "c49814f7-c69e-36dc-f914-8a2b8d1cf4a8",
+    "csrfToken": "BAC2S0p8cDHP-NCQJEASFBUx54nR7fUijd3ZcWzA"
+  })
+})
 app.post("/posts",(req,res)=>{
     let {username,content,profile} = req.body;
     let id = uuidv4();
